@@ -40,7 +40,7 @@ class Event
     private $speakers;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Sponsor", inversedBy="event")
+     * @ORM\OneToMany(targetEntity="App\Entity\Sponsor", mappedBy="event")
      */
     private $sponsors;
 

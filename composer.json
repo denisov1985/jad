@@ -14,7 +14,8 @@
         "symfony/orm-pack": "^1.0",
         "symfony/twig-bundle": "^4.0",
         "symfony/web-server-bundle": "^4.0",
-        "symfony/yaml": "^4.0"
+        "symfony/yaml": "^4.0",
+        "vich/uploader-bundle": "^1.7"
     },
     "require-dev": {
         "symfony/dotenv": "^4.0",
@@ -61,7 +62,7 @@
     "extra": {
         "symfony": {
             "id": "01C1Z5XCV4WAR03NVSKHDWEMPR",
-            "allow-contrib": false
+            "allow-contrib": true
         }
     }
 }

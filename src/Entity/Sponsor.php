@@ -3,9 +3,12 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\SponsorRepository")
+ * @Vich\Uploadable
  */
 class Sponsor
 {
@@ -22,19 +25,35 @@ class Sponsor
     private $name;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", nullable=true)
      */
     private $logo;
 
     /**
-     * @ORM\Column(type="string")
+     * @Vich\UploadableField(mapping="sponsor", fileNameProperty="logo")
+     * @var File
+     */
+    private $imageFile;
+
+    /**
+     * @ORM\OneToOne(targetEntity="App\Entity\Image")
+     */
+    private $image;
+    /**
+     * @ORM\Column(type="string", nullable=true)
      */
     private $url;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Event", mappedBy="sponsors")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Event", inversedBy="sponsors")
      */
     private $event;
+
+    /**
+     * @ORM\Column(type="datetime")
+     * @var \DateTime
+     */
+    private $updatedAt;
 
     /**
      * @return mixed
@@ -120,6 +139,55 @@ class Sponsor
     {
         return $this->name;
     }
+
+    /**
+     * @return \DateTime
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updatedAt;
+    }
+
+    /**
+     * @param \DateTime $updatedAt
+     */
+    public function setUpdatedAt($updatedAt)
+    {
+        $this->updatedAt = $updatedAt;
+    }
+
+    public function setImageFile(File $image = null)
+    {
+        $this->imageFile = $image;
+
+        // VERY IMPORTANT:
+        // It is required that at least one field changes if you are using Doctrine,
+        // otherwise the event listeners won't be called and the file is lost
+        if ($image) {
+            // if 'updatedAt' is not defined in your entity, use another property
+            $this->updatedAt = new \DateTime('now');
+        }
+    }
+
+    /**
+     * @return File
+     */
+    public function getImageFile()
+    {
+        return $this->imageFile;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImage()
+    {
+        return $this->logo;
+    }
+
+
+
+
 
     // add your own fields
 }

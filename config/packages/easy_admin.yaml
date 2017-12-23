@@ -2,7 +2,16 @@ easy_admin:
     entities:
         Event:
             class: App\Entity\Event
+        Sponsor:
+            class: App\Entity\Sponsor
             form:
                 fields:
-                    - title
-                    - speakers
+                    - { property: 'name', type: 'text' }
+                    - { property: 'logo', type: 'text' }
+                    - { property: 'imageFile', type: 'vich_image' }
+                    - { property: 'event' }
+            list:
+                fields:
+                    - { property: 'name', type: 'text' }
+                    - { property: 'image', type: 'image', base_path: '/images/sponsors' }
+                    - { property: 'event' }
