@@ -1,0 +1,8 @@
+easy_admin:
+    entities:
+        Event:
+            class: App\Entity\Event
+            form:
+                fields:
+                    - title
+                    - speakers
