@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="725px" viewBox="0 0 460 725" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>navBg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="460" height="725"></rect>
+        <linearGradient x1="83.9271311%" y1="81.9781802%" x2="62.1042059%" y2="28.2880299%" id="linearGradient-3">
+            <stop stop-color="#171B26" offset="0%"></stop>
+            <stop stop-color="#C96DD8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1460.000000, 0.000000)">
+            <g id="navBg" transform="translate(1460.000000, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M570,1363 C293.857625,1363 70,1139.14237 70,863 C70,586.857625 293.857625,363 570,363 C846.142375,363 1070,586.857625 1070,863 C1070,1139.14237 846.142375,1363 570,1363 Z M445,988 C583.071187,988 695,876.071187 695,738 C695,599.928813 583.071187,488 445,488 C306.928813,488 195,599.928813 195,738 C195,876.071187 306.928813,988 445,988 Z" id="Combined-Shape-Copy-2" fill-opacity="0.100000001" fill="#11151E" mask="url(#mask-2)"></path>
+                <circle id="Combined-Shape-Copy-6" stroke="url(#linearGradient-3)" opacity="0.639775815" mask="url(#mask-2)" cx="-281" cy="495" r="600"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
