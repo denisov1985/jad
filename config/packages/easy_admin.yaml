@@ -6,12 +6,32 @@ easy_admin:
             class: App\Entity\Sponsor
             form:
                 fields:
-                    - { property: 'name', type: 'text' }
-                    - { property: 'logo', type: 'text' }
+                    - { property: 'name' }
+                    - { property: 'url' }
+                    - { property: 'type' }
                     - { property: 'imageFile', type: 'vich_image' }
                     - { property: 'event' }
             list:
                 fields:
-                    - { property: 'name', type: 'text' }
+                    - { property: 'name' }
+                    - { property: 'type' }
                     - { property: 'image', type: 'image', base_path: '/images/sponsors' }
+                    - { property: 'event' }
+        SponsorType:
+            class: App\Entity\SponsorType
+            form:
+                fields:
+                    - { property: 'name' }
+        Speaker:
+            class: App\Entity\Speaker
+            form:
+                fields:
+                    - { property: 'name' }
+                    - { property: 'company' }
+                    - { property: 'imageFile', type: 'vich_image' }
+                    - { property: 'event' }
+            list:
+                fields:
+                    - { property: 'name'}
+                    - { property: 'photo', type: 'image', base_path: '/images/speakers' }
                     - { property: 'event' }

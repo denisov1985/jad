@@ -35,7 +35,7 @@ class Event
     private $isFrontPage;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Speaker", inversedBy="event")
+     * @ORM\OneToMany(targetEntity="App\Entity\Speaker", mappedBy="event")
      */
     private $speakers;
 

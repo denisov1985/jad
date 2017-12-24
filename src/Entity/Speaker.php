@@ -4,9 +4,12 @@ namespace App\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\SpeakerRepository")
+ * @Vich\Uploadable
  */
 class Speaker
 {
@@ -24,9 +27,21 @@ class Speaker
     private $name;
 
     /**
+     * @Vich\UploadableField(mapping="speaker", fileNameProperty="photo")
+     * @var File
+     */
+    private $imageFile;
+
+    /**
      * @ORM\Column(type="string")
      */
     private $company;
+
+    /**
+     * @ORM\Column(type="datetime")
+     * @var \DateTime
+     */
+    private $updatedAt;
 
     /**
      * @ORM\Column(type="string")
@@ -34,7 +49,7 @@ class Speaker
     private $photo;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Event", mappedBy="speakers")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Event", inversedBy="speakers")
      */
     private $event;
 
@@ -146,5 +161,37 @@ class Speaker
     public function addActivity(Activity $activity)
     {
         $this->activities[] = $activity;
+    }
+
+    public function setImageFile(File $image = null)
+    {
+        $this->imageFile = $image;
+        if ($image) {
+            $this->updatedAt = new \DateTime('now');
+        }
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updatedAt;
+    }
+
+    /**
+     * @param \DateTime $updatedAt
+     */
+    public function setUpdatedAt($updatedAt)
+    {
+        $this->updatedAt = $updatedAt;
+    }
+
+    /**
+     * @return File
+     */
+    public function getImageFile()
+    {
+        return $this->imageFile;
     }
 }

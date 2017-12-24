@@ -36,10 +36,6 @@ class Sponsor
     private $imageFile;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Image")
-     */
-    private $image;
-    /**
      * @ORM\Column(type="string", nullable=true)
      */
     private $url;
@@ -55,6 +51,10 @@ class Sponsor
      */
     private $updatedAt;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\SponsorType")
+     */
+    private $type;
     /**
      * @return mixed
      */
@@ -159,12 +159,7 @@ class Sponsor
     public function setImageFile(File $image = null)
     {
         $this->imageFile = $image;
-
-        // VERY IMPORTANT:
-        // It is required that at least one field changes if you are using Doctrine,
-        // otherwise the event listeners won't be called and the file is lost
         if ($image) {
-            // if 'updatedAt' is not defined in your entity, use another property
             $this->updatedAt = new \DateTime('now');
         }
     }
@@ -184,6 +179,23 @@ class Sponsor
     {
         return $this->logo;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param mixed $type
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+    }
+
 
 
 
