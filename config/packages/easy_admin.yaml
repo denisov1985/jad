@@ -28,10 +28,12 @@ easy_admin:
                 fields:
                     - { property: 'name' }
                     - { property: 'company' }
+                    - { property: 'role' }
                     - { property: 'imageFile', type: 'vich_image' }
                     - { property: 'event' }
             list:
                 fields:
                     - { property: 'name'}
+                    - { property: 'company'}
                     - { property: 'photo', type: 'image', base_path: '/images/speakers' }
                     - { property: 'event' }

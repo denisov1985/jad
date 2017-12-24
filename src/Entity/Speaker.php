@@ -48,11 +48,21 @@ class Speaker
      */
     private $photo;
 
+
+    /**
+     * @ORM\Column(type="string", nullable=true)
+     */
+    private $role;
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Event", inversedBy="speakers")
      */
     private $event;
 
+
+    /**
+     * @ORM\Column(type="json", nullable=true)
+     */
+    private $social;
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\Activity", mappedBy="speaker")
      */
@@ -194,4 +204,38 @@ class Speaker
     {
         return $this->imageFile;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getSocial()
+    {
+        return $this->social;
+    }
+
+    /**
+     * @param mixed $social
+     */
+    public function setSocial($social)
+    {
+        $this->social = $social;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getRole()
+    {
+        return $this->role;
+    }
+
+    /**
+     * @param mixed $role
+     */
+    public function setRole($role)
+    {
+        $this->role = $role;
+    }
+
+
 }
