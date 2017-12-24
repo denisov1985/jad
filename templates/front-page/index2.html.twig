@@ -113,11 +113,7 @@
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
                                                 </button>
-                                                <div class="lgx-logo">
-                                                    <a href="index.html" tppabs="http://themearth.com/demo/html/eventpoint/view/index.html" class="lgx-scroll">
-                                                        <img src="assets/img/logo.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/logo.png" alt="Logo"/>
-                                                    </a>
-                                                </div>
+
                                             </div>
                                             <div class="collapse navbar-collapse">
                                                 <ul class="nav navbar-nav lgx-nav">
@@ -719,29 +715,15 @@
                         <!--//main row-->
                         <div class="row">
                             <div class="col-xs-12">
-                                <h3 class="sponsored-heading first-heading">Gold Sponsors</h3>
+                                <h3 class="sponsored-heading first-heading">Title Sponsor</h3>
                                 <div class="sponsors-area">
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor2.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor2.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor3.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor3.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor4.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor4.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor5.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor5.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor6.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor6.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor7.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor7.png" alt=""/></a>
-                                    </div>
+                                    {% for sponsor in event.sponsors %}
+                                        {% if sponsor.type.id == 1 %}
+                                            <div class="single">
+                                                <a class="" href="#"><img src="/images/sponsors/{{ sponsor.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
                                 </div>
                             </div>
                             <!--//col-->
@@ -749,25 +731,84 @@
                         <!--//row-->
                         <div class="row">
                             <div class="col-xs-12">
-                                <h3 class="sponsored-heading">Silver Sponsors</h3>
+                                <h3 class="sponsored-heading first-heading">Platinum Sponsors</h3>
                                 <div class="sponsors-area">
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor7.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor7.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor2.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor2.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="#"><img src="assets/img/sponsors/sponsor3.png" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor3.png" alt=""/></a>
-                                    </div>
+                                    {% for sponsor in event.sponsors %}
+                                        {% if sponsor.type.id == 2 %}
+                                            <div class="single">
+                                                <a class="" href="#"><img src="/images/sponsors/{{ sponsor.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
                                 </div>
                             </div>
                             <!--//col-->
                         </div>
                         <!--//row-->
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h3 class="sponsored-heading first-heading">Gold Sponsors</h3>
+                                <div class="sponsors-area">
+                                    {% for sponsor in event.sponsors %}
+                                        {% if sponsor.type.id == 3 %}
+                                            <div class="single">
+                                                <a class="" href="#"><img style="height: 64px" src="/images/sponsors/{{ sponsor.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <!--//col-->
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h3 class="sponsored-heading first-heading">Silver Sponsors</h3>
+                                <div class="sponsors-area">
+                                    {% for sponsor in event.sponsors %}
+                                        {% if sponsor.type.id == 4 %}
+                                            <div class="single">
+                                                <a class="" href="#"><img style="height: 64px" src="/images/sponsors/{{ sponsor.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <!--//col-->
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h3 class="sponsored-heading first-heading">Bronze Sponsors</h3>
+                                <div class="sponsors-area">
+                                    {% for sponsor in event.sponsors %}
+                                        {% if sponsor.type.id == 5 %}
+                                            <div class="single">
+                                                <a class="" href="#"><img style="height: 64px" src="/images/sponsors/{{ sponsor.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <!--//col-->
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h3 class="sponsored-heading first-heading">	Whiskey Sponsor</h3>
+                                <div class="sponsors-area">
+                                    {% for sponsor in event.sponsors %}
+                                        {% if sponsor.type.id == 6 %}
+                                            <div class="single">
+                                                <a class="" href="#"><img src="/images/sponsors/{{ sponsor.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/sponsors/sponsor1.png" alt=""/></a>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <!--//col-->
+                        </div>
+
                         <div class="sponsors-btn-area">
                             <a class="lgx-btn lgx-btn-big" href="#"><span>Become A Sponsor</span></a>
                         </div>
