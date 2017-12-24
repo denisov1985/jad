@@ -50,6 +50,10 @@ class Event
     private $activities;
 
     /**
+     * @ORM\Column(type="date")
+     */
+    private $startedAt;
+    /**
      * Page constructor.
      */
     public function __construct()
@@ -186,6 +190,22 @@ class Event
     public function setActivities($activities)
     {
         $this->activities = $activities;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getStartedAt()
+    {
+        return $this->startedAt;
+    }
+
+    /**
+     * @param mixed $startedAt
+     */
+    public function setStartedAt($startedAt)
+    {
+        $this->startedAt = $startedAt;
     }
 
 

@@ -2,79 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db32e24-fc74-44aa-b676-e996c855a244" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/591ee8e14a845.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/591ee92b20b5a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/591ee97d2671d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59280689c76ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5928080b35caa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59280899585e4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59280c2475a84.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59280d95b1a41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59280eb09e512.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5928102ae0caf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996a5ab6d4b4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996b15bd4b89.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996b484106dc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996b5e351373.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996b70817dd0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996b84493ef7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996b9e49efef.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996bb4b23d37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/5996c47d906a1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59e760bc232df.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59e766bbaf8ea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59e770b59f27b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59e7728332c32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59e77882e44c6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59e779c4b6680.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edb9b8edcdb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edc04dc2ad5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edc4fcc706b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edcf396a3cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edd0beb4d5f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edd19283381.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edd232263a5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edd545d9f43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59edd61abbb9c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59ee1282f00fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59ee133703e0d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59ee15887b92d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59ee1601b7c78.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59ee185d5d715.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59ee1944a7c9a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59ee1ab09159d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f1f5857e105.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f1f758c0475.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f1fe00c58bb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f206c69885c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f312a317e6b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f312ffcd8b3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f343a13b8a7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f350c139cb2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f351a5ecdac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f353304de25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f64a5761b38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f64f3eed36b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f651f2d36c3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f65317611aa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f653e0ce352.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f655a7cd43b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f6570a875c3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f658b9b7678.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f659dce7064.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f65aff90eb4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/speakers/59f65b928bc17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Command/ParseCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Command/Resources/speakers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171224112933.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171224121320.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171224122531.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/banner-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/banner-inner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/banner-man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/banner-style-inner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/banner-style.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/banner-style2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/blog-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/blog-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/android-icon-192x192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-152x152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-180x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/apple-icon-76x76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/favicon/favicon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/footer-style.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/gallery/gallery8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/image-alignment.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/info-icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/info-icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/info-icon3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/register-bg-slider.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/register-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule-bg-style.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/schedule/speaker8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/slider1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/slider2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/slider3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/speakers/speaker1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/speakers/speaker2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/speakers/speaker3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/speakers/speaker4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/speakers/speaker5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/speakers/speaker6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/speakers/speaker7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors/sponsor1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors/sponsor2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors/sponsor3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors/sponsor4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors/sponsor5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors/sponsor6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/sponsors/sponsor7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/testi-client.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/testi-client2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/testi-client3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/video-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/fonts/glyphicons-halflings-regular.eot-" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/style-default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/custom.script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/vendor/modernizr-2.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/animate/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/countdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/fontawesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/gmap/jquery.googlemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/jquery.smooth-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/jquery.smooth-scroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/maginificpopup/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/maginificpopup/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/owlcarousel/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/owlcarousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/owlcarousel/owl.theme.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/timer/TimeCircles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/timer/TimeCircles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/typed/typed.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171224202434.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171224202642.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/front-page/index2.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/owl.carousel.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/owl.theme.default.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/tm-weventt.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/android-chrome-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/cursor-close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/dropdown-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/favicon-194x194.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/index-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/index-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/index-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/index-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/index-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/introbg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/lineBg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logo-promo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/mapicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/maps.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/navBg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/wtlogo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/smooth-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/tether.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/tm-weventt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/video/video.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webResources.xml" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Speaker.php" afterPath="$PROJECT_DIR$/src/Entity/Speaker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/FrontPageController.php" afterPath="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Event.php" afterPath="$PROJECT_DIR$/src/Entity/Event.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot-" afterPath="$PROJECT_DIR$/public/assets/libs/fontawesome/fonts/fontawesome-webfont.eot-" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/libs/fontawesome/fonts/fontawesome-webfont.eot-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/libs/fontawesome/fonts/fontawesome-webfont.svg-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/libs/fontawesome/fonts/fontawesome-webfont.ttf-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/libs/fontawesome/fonts/fontawesome-webfont.woff-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/libs/fontawesome/fonts/fontawesome-webfont.woff2-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.min.js" afterPath="$PROJECT_DIR$/public/assets/js/vendor/jquery-1.12.4.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,11 +165,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Speaker.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Speaker.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Speaker.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="633">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#30#78#0#PHP" expanded="true" />
               </folding>
@@ -106,10 +177,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index2.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/front-page/index2.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="162" column="59" lean-forward="true" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
+              <folding>
+                <marker date="1514147501019" expanded="true" signature="7184:7637" ph="..." />
+                <marker date="1514147501019" expanded="true" signature="7577:7605" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.12.4.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/vendor/jquery-1.12.4.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="easy_admin.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
+            <state relative-caret-position="750">
               <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding />
             </state>
@@ -122,6 +216,19 @@
             <state relative-caret-position="599">
               <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontPageController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+              <folding>
+                <element signature="e#34#55#0#PHP" expanded="true" />
+                <element signature="e#505#534#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -429,34 +536,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vich_uploader.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/vich_uploader.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrontPageController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding>
-                <element signature="e#34#93#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="599">
+              <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+              <folding>
+                <element signature="e#30#78#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -469,16 +556,6 @@
               <folding>
                 <element signature="e#30#62#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -500,6 +577,7 @@
       <find>speaker-info</find>
       <find>$company</find>
       <find>speaker-block</find>
+      <find>switche</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -513,13 +591,11 @@
         <option value="$PROJECT_DIR$/src/Entity/Activity.php" />
         <option value="$PROJECT_DIR$/src/Form/SpeakerFormType.php" />
         <option value="$PROJECT_DIR$/src/Form/SpeakerType.php" />
-        <option value="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
         <option value="$PROJECT_DIR$/templates/front-page/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Entity/Image.php" />
         <option value="$PROJECT_DIR$/config/packages/vich_uploader.yaml" />
-        <option value="$PROJECT_DIR$/src/Entity/Event.php" />
         <option value="$PROJECT_DIR$/src/Entity/Sponsor.php" />
         <option value="$PROJECT_DIR$/src/Entity/SponsorType.php" />
         <option value="$PROJECT_DIR$/src/Entity/SpeakerSocial.php" />
@@ -527,6 +603,9 @@
         <option value="$PROJECT_DIR$/src/Command/ParseCommand.php" />
         <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/Speaker.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Event.php" />
+        <option value="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
+        <option value="$PROJECT_DIR$/templates/front-page/index2.html.twig" />
       </list>
     </option>
   </component>
@@ -613,24 +692,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -756,7 +817,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -774,11 +835,37 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="speakers" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -831,6 +918,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\symfony\jad\public" />
       <recent name="C:\symfony\jad\src\Form" />
     </key>
   </component>
@@ -918,7 +1006,7 @@
       <workItem from="1514036266512" duration="6536000" />
       <workItem from="1514112073039" duration="61000" />
       <workItem from="1514112144849" duration="34000" />
-      <workItem from="1514112189355" duration="6292000" />
+      <workItem from="1514112189355" duration="8486000" />
     </task>
     <task id="LOCAL-00001" summary="Template works">
       <created>1514037025050</created>
@@ -941,18 +1029,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514113183927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Template works">
+      <created>1514118495427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514118495428</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19657000" />
+    <option name="totallyTimeSpent" value="21851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2583423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25672767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1010,24 +1105,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#34#93#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -1101,7 +1178,8 @@
         <state relative-caret-position="350">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
-            <element signature="e#34#93#0#PHP" expanded="false" />
+            <element signature="e#34#55#0#PHP" expanded="true" />
+            <element signature="e#505#534#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1110,7 +1188,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,7 +1268,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4725">
           <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,28 +1395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#34#93#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/vich_uploader.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1664,20 +1728,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/vendor/jquery-1.12.4.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Speaker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="633">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding>
+            <element signature="e#34#55#0#PHP" expanded="true" />
+            <element signature="e#505#534#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front-page/index2.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="162" column="59" lean-forward="true" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
+          <folding>
+            <marker date="1514147501019" expanded="true" signature="7184:7637" ph="..." />
+            <marker date="1514147501019" expanded="true" signature="7577:7605" ph="..." />
           </folding>
         </state>
       </provider>
