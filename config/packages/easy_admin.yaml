@@ -7,6 +7,7 @@ easy_admin:
             - { entity: 'Event', icon: 'calendar' }
             - { entity: 'Sponsor', icon: 'usd' }
             - { entity: 'SponsorType', icon: 'list-ul' }
+            - { entity: 'Activity', icon: 'bullhorn' }
             - { entity: 'Speaker', icon: 'users' }
             - { entity: 'Photo', icon: 'photo' }
     entities:
@@ -43,6 +44,25 @@ easy_admin:
             form:
                 fields:
                     - { property: 'name' }
+        Activity:
+            label: 'Доповiдi'
+            class: App\Entity\Activity
+            form:
+                fields:
+                    - { property: 'name' }
+                    - { property: 'description', type: 'ckeditor' }
+                    - { property: 'startedAt' }
+                    - { property: 'endedAt' }
+                    - { property: 'event' }
+                    - { property: 'speaker' }
+            list:
+                fields:
+                    - { property: 'id' }
+                    - { property: 'name' }
+                    - { property: 'startedAt' }
+                    - { property: 'endedAt' }
+                    - { property: 'event' }
+                    - { property: 'speaker' }
         Speaker:
             label: 'Докладачi'
             class: App\Entity\Speaker

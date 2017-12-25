@@ -22,6 +22,11 @@ class Activity
     private $name;
 
     /**
+     * @ORM\Column(type="string")
+     */
+    private $description;
+
+    /**
      * @ORM\Column(type="datetime")
      */
     private $startedAt;
@@ -142,4 +147,22 @@ class Activity
     {
         return $this->name;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+
 }

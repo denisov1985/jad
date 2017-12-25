@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db32e24-fc74-44aa-b676-e996c855a244" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171225185945.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Activity.php" afterPath="$PROJECT_DIR$/src/Entity/Activity.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +48,18 @@
       <file leaf-file-name="easy_admin.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            <state relative-caret-position="253">
+              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3838">
+              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,7 +164,6 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/Page.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Activity.php" />
         <option value="$PROJECT_DIR$/src/Form/SpeakerFormType.php" />
         <option value="$PROJECT_DIR$/src/Form/SpeakerType.php" />
         <option value="$PROJECT_DIR$/templates/front-page/index.html.twig" />
@@ -174,6 +185,7 @@
         <option value="$PROJECT_DIR$/../IvoryCKEditorBundle/composer.json" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Activity.php" />
         <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
       </list>
     </option>
@@ -215,6 +227,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -678,7 +704,7 @@
       <workItem from="1514112073039" duration="61000" />
       <workItem from="1514112144849" duration="34000" />
       <workItem from="1514112189355" duration="10006000" />
-      <workItem from="1514197972274" duration="13177000" />
+      <workItem from="1514197972274" duration="14503000" />
     </task>
     <task id="LOCAL-00001" summary="Template works">
       <created>1514037025050</created>
@@ -764,11 +790,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514227314640</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Template works">
+      <created>1514227389774</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514227389774</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36548000" />
+    <option name="totallyTimeSpent" value="37874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -933,13 +966,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171222140622.php" />
-    <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3550">
-          <caret line="142" column="27" lean-forward="false" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/SpeakerFormType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1484,10 +1510,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3838">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        <state relative-caret-position="253">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding />
         </state>
       </provider>
