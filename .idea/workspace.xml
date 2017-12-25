@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db32e24-fc74-44aa-b676-e996c855a244" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23509046_1477500618985266_1937836353605933920_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23509219_1477500932318568_5411050209139180752_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23511062_1477502262318435_8365298154193704495_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23511485_1477501362318525_8930420704261642388_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23550324_1477501375651857_7851715207408012481_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23550847_1477502422318419_9119390379164146839_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23551131_1477502105651784_8399571185221021853_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23592111_1477501632318498_168363859215925255_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23592205_1477499715652023_3516033041120557183_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23592268_1477500365651958_8570365543316889476_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23593328_1477502558985072_7648205238211975939_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23593391_1477501822318479_7616139053756166398_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23631937_1477500672318594_8262263859165608723_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23632031_1477501305651864_8848546443623305218_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23632567_1477515885650406_1030254188829430187_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos/23669067_1477563055645689_6127450988165914594_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Photo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171225111616.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171225112630.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171225120915.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171225123227.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repository/PhotoRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/custom.script.js" afterPath="$PROJECT_DIR$/public/assets/js/custom.script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/FrontPageController.php" afterPath="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Event.php" afterPath="$PROJECT_DIR$/src/Entity/Event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Speaker.php" afterPath="$PROJECT_DIR$/src/Entity/Speaker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Sponsor.php" afterPath="$PROJECT_DIR$/src/Entity/Sponsor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/front-page/index2.html.twig" afterPath="$PROJECT_DIR$/templates/front-page/index2.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index2.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index2.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/front-page/index2.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
-              <caret line="214" column="53" lean-forward="true" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
+              <caret line="214" column="53" lean-forward="false" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1514206023583" expanded="true" signature="7175:7628" ph="..." />
@@ -98,11 +72,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SponsorType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/SponsorType.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="e#7#22#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -118,46 +124,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/custom.script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="420" column="4" lean-forward="false" selection-start-line="420" selection-start-column="4" selection-end-line="420" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="easy_admin.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="726">
               <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-              <folding>
-                <element signature="e#30#78#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sponsor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="54" column="80" lean-forward="false" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="80" />
-              <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,6 +158,8 @@
       <find>map-canvas-default</find>
       <find>galle</find>
       <find>speakers</find>
+      <find>const</find>
+      <find>constr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -635,7 +609,7 @@
       <workItem from="1514112073039" duration="61000" />
       <workItem from="1514112144849" duration="34000" />
       <workItem from="1514112189355" duration="10006000" />
-      <workItem from="1514197972274" duration="6662000" />
+      <workItem from="1514197972274" duration="7805000" />
     </task>
     <task id="LOCAL-00001" summary="Template works">
       <created>1514037025050</created>
@@ -679,11 +653,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514155247801</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Template works">
+      <created>1514206189875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514206189875</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30033000" />
+    <option name="totallyTimeSpent" value="31176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1092" extended-state="0" />
@@ -748,30 +729,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/SponsorType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/vich_uploader.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/front-page/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -818,6 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -903,6 +861,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,13 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20850">
           <caret line="834" column="39" lean-forward="false" selection-start-line="834" selection-start-column="39" selection-end-line="834" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1393,12 +1345,46 @@
     <entry file="file://$PROJECT_DIR$/templates/front-page/index2.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="214" column="53" lean-forward="true" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
+          <caret line="214" column="53" lean-forward="false" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1514206023583" expanded="true" signature="7175:7628" ph="..." />
             <marker date="1514206023583" expanded="true" signature="7568:7596" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="e#7#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
