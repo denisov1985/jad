@@ -48,11 +48,12 @@ easy_admin:
             class: App\Entity\Speaker
             form:
                 fields:
+                    - { property: 'id' }
+                    - { property: 'imageFile', type: 'vich_image' }
                     - { property: 'name' }
                     - { property: 'company' }
                     - { property: 'role' }
                     - { property: 'weight' }
-                    - { property: 'imageFile', type: 'vich_image' }
                     - { property: 'event' }
             list:
                 fields:
