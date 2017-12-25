@@ -2,364 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db32e24-fc74-44aa-b676-e996c855a244" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/flash/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/images/hiddenfield.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/iframe/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/image/images/noimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/link/images/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/link/images/hidpi/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/magicline/images/hidpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/magicline/images/icon-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/magicline/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/pagebreak/images/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_div.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_h2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_h3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_h4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_h5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_h6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/showblocks/images/block_pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/angel_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/angel_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/angry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/angry_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/broken_heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/broken_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/confused_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/confused_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/cry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/cry_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/devil_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/devil_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/embaressed_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/embarrassed_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/embarrassed_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/envelope.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/envelope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/kiss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/lightbulb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/lightbulb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/omg_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/omg_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/regular_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/regular_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/sad_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/sad_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/shades_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/shades_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/teeth_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/teeth_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/thumbs_down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/thumbs_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/thumbs_up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/thumbs_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/tongue_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/tongue_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/tounge_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/wink_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/images/wink_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/templates/templates/images/template1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/templates/templates/images/template2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/templates/templates/images/template3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/widget/images/handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/hidpi/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/hidpi/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/hidpi/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/hidpi/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/images/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/adapters/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/de-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/es-mx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/oc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/oc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/about/dialogs/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/colordialog/dialogs/colordialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/colordialog/dialogs/colordialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/copyformatting/cursors/cursor.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/copyformatting/styles/copyformatting.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/div/dialogs/div.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/find/dialogs/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/flash/dialogs/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/hiddenfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/forms/dialogs/textfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/iframe/dialogs/iframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/image/dialogs/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/link/dialogs/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/liststyle/dialogs/liststyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/scayt/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/scayt/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/scayt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/scayt/dialogs/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/scayt/skins/moono-lisa/scayt.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/smiley/dialogs/smiley.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/es-mx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/oc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/table/dialogs/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/tableselection/styles/tableselection.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/templates/dialogs/templates.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/templates/dialogs/templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/templates/templates/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/dialogs/wsc_ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/plugins/wsc/skins/moono-lisa/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/editor_gecko.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/skins/moono-lisa/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/bundles/ivoryckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/video-bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/ivory_ck_editor.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.yaml" afterPath="$PROJECT_DIR$/config/services.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -412,8 +57,8 @@
       <file leaf-file-name="services.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/services.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1034,7 +679,7 @@
       <workItem from="1514112073039" duration="61000" />
       <workItem from="1514112144849" duration="34000" />
       <workItem from="1514112189355" duration="10006000" />
-      <workItem from="1514197972274" duration="12301000" />
+      <workItem from="1514197972274" duration="12930000" />
     </task>
     <task id="LOCAL-00001" summary="Template works">
       <created>1514037025050</created>
@@ -1099,11 +744,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514209435912</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Template works">
+      <created>1514225507208</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1514225507208</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35672000" />
+    <option name="totallyTimeSpent" value="36301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -1821,8 +1473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
