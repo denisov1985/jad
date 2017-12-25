@@ -16,6 +16,10 @@ easy_admin:
             icon: calendar
             list:
                 title: '%%entity_label%% список'
+            form:
+                fields:
+                    - { property: 'title' }
+                    - { property: 'content', type: 'ckeditor' }
         Sponsor:
             label: 'Спонсори'
             class: App\Entity\Sponsor

@@ -71,6 +71,18 @@
     "doctrine/orm": {
         "version": "v2.6.0"
     },
+    "egeloen/ckeditor-bundle": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "5.0",
+            "ref": "9bff1a2f13047142fd0ed93ba71cb7df5c86a2fa"
+        }
+    },
+    "egeloen/json-builder": {
+        "version": "3.0.0"
+    },
     "javiereguiluz/easyadmin-bundle": {
         "version": "1.17",
         "recipe": {
