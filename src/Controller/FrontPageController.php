@@ -3,6 +3,8 @@
 namespace App\Controller;
 
 use App\Entity\Event;
+use App\Entity\Photo;
+use App\Entity\Speaker;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -15,9 +17,17 @@ class FrontPageController extends Controller
     {
         $em = $this->get('doctrine.orm.entity_manager');
         $event = $em->getRepository(Event::class)->find(1);
+
+        $photos = $em->getRepository(Photo::class)->findAll();
+
+        $titleSpeakers = $em->getRepository(Speaker::class)->findBy(['weight' => 2], ['id' => 'DESC']);
+        $speakers = $em->getRepository(Speaker::class)->findBy(['weight' => 0], [], 8);
         // replace this line with your own code!
         return $this->render('front-page/index2.html.twig', [
-            'event' => $event
+            'event'  => $event,
+            'photos' => $photos,
+            'titleSpeakers' => $titleSpeakers,
+            'speakers' => $speakers
         ]);
     }
 }

@@ -72,7 +72,7 @@
 
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css"
-          href="../../../../../fonts.googleapis.com/css-family=Oswald-400,700-Lora-400,400i,700,700i.css" tppabs="https://fonts.googleapis.com/css?family=Oswald:400,700%7cLora:400,400i,700,700i"/>
+          href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cLora:400,400i,700,700i" tppabs="https://fonts.googleapis.com/css?family=Oswald:400,700%7cLora:400,400i,700,700i"/>
 
     <link rel="stylesheet" href="assets/libs/animate/animate.css" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/libs/animate/animate.css" media="all" />
 
@@ -192,10 +192,12 @@
                     </div>
                     <!--//.ROW-->
                     <div class="row">
+                        {% for speaker in titleSpeakers %}
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <div class="lgx-single-speaker">
                                 <figure>
-                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html"><img src="assets/img/speakers/speaker1.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker1.jpg" alt="speaker"/></a>
+                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">
+                                        <img style="width: 100%" src="/images/speakers/{{ speaker.photo }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker1.jpg" alt="speaker"/></a>
                                     <figcaption>
                                         <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
                                         <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
@@ -204,49 +206,18 @@
                                     </figcaption>
                                 </figure>
                                 <div class="speaker-info">
-                                    <h3 class="title"><a href="speaker-single.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speaker-single.html">Jonathon Doe</a></h3>
-                                    <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                    <h3 class="title"><a href="speaker-single.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speaker-single.html">{{ speaker.name }}</a></h3>
+                                    <h4 class="subtitle">{{ speaker.role }} at {{ speaker.company }}</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="lgx-single-speaker">
-                                <figure>
-                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html"><img src="assets/img/speakers/speaker2.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker2.jpg" alt="speaker"/></a>
-                                    <figcaption>
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </figcaption>
-                                </figure>
-                                <div class="speaker-info">
-                                    <h3 class="title"><a href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">Sumona De Suja</a></h3>
-                                    <h4 class="subtitle">Ux/Ui Designer</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="lgx-single-speaker">
-                                <figure>
-                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html"><img src="assets/img/speakers/speaker3.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker3.jpg" alt="speaker"/></a>
-                                    <figcaption>
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </figcaption>
-                                </figure>
-                                <div class="speaker-info">
-                                    <h3 class="title"><a href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">Devid Vaskar</a></h3>
-                                    <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
+                        {% endfor %}
+                        {% for speaker in speakers %}
+                            <div class="col-xs-12 col-sm-6 col-md-3">
                             <div class="lgx-single-speaker lgx-single-speaker-sm">
                                 <figure>
-                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html"><img src="assets/img/speakers/speaker4.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker4.jpg" alt="speaker"/></a>
+                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">
+                                        <img src="/images/speakers/{{ speaker.photo }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker4.jpg" alt="speaker"/></a>
                                     <figcaption>
                                         <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
                                         <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
@@ -255,62 +226,12 @@
                                     </figcaption>
                                 </figure>
                                 <div class="speaker-info">
-                                    <h3 class="title"><a href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">Jhon Soumen</a></h3>
-                                    <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                    <h3 class="title"><a href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">{{ speaker.name }}</a></h3>
+                                    <h4 class="subtitle">{{ speaker.company }}</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <div class="lgx-single-speaker lgx-single-speaker-sm">
-                                <figure>
-                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html"><img src="assets/img/speakers/speaker5.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker5.jpg" alt="speaker"/></a>
-                                    <figcaption>
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </figcaption>
-                                </figure>
-                                <div class="speaker-info">
-                                    <h3 class="title"><a href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">Sujana Jhon</a></h3>
-                                    <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <div class="lgx-single-speaker lgx-single-speaker-sm">
-                                <figure>
-                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html"><img src="assets/img/speakers/speaker6.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker6.jpg" alt="speaker"/></a>
-                                    <figcaption>
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </figcaption>
-                                </figure>
-                                <div class="speaker-info">
-                                    <h3 class="title"><a href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">Devil Sagar</a></h3>
-                                    <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <div class="lgx-single-speaker lgx-single-speaker-sm">
-                                <figure>
-                                    <a class="profile-img" href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html"><img src="assets/img/speakers/speaker7.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/speakers/speaker7.jpg" alt="speaker"/></a>
-                                    <figcaption>
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </figcaption>
-                                </figure>
-                                <div class="speaker-info">
-                                    <h3 class="title"><a href="speakers-list.html" tppabs="http://themearth.com/demo/html/eventpoint/view/speakers-list.html">Alina Pavel</a></h3>
-                                    <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                </div>
-                            </div>
-                        </div>
+                        {% endfor %}
                     </div>
                     <!--//.ROW-->
                     <div class="speakers-btn-area">
@@ -985,13 +906,14 @@
             <div id="lgx-memorisinner" class="lgx-memorisinner">
                 <div class="container-fluid text-center">
                     <div class="row">
+                        {% for photo in photos %}
                         <div  class="lgx-single">
                             <figure>
-                                <img title="Memories One" src="assets/img/gallery/gallery1.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery1.jpg" alt="Memories one"/>
+                                <img title="Memories One" src="/images/photos/{{ photo.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery1.jpg" alt="Memories one"/>
                                 <figcaption class="lgx-figcaption">
                                     <div class="lgx-hover-link">
                                         <div class="lgx-vertical">
-                                            <a title="Memories One" href="assets/img/gallery/gallery1.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery1.jpg">
+                                            <a title="Memories One" href="/images/photos/{{ photo.image }}" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery1.jpg">
                                                 <i class="fa fa-search fa-2x"></i>
                                             </a>
                                         </div>
@@ -999,158 +921,7 @@
                                 </figcaption>
                             </figure>
                         </div>
-                        <div  class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery2.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery2.jpg" alt="Memories Two" title="Memories Two" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Two" href="assets/img/gallery/gallery2.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery2.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div  class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery3.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery3.jpg" alt="Memories Three" title="Memories Three" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Three" href="assets/img/gallery/gallery3.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery3.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div  class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery4.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery4.jpg" alt="Memories Four" title="Memories Four" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Four" href="assets/img/gallery/gallery4.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery4.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery5.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery5.jpg" alt="Memories Five" title="Memories Five" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Five" href="assets/img/gallery/gallery5.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery5.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery6.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery6.jpg" alt="Memories Six" title="Memories Six" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Six" href="assets/img/gallery/gallery6.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery6.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div  class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery7.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery7.jpg" alt="Memories Seven" title="Memories Seven" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Seven" href="assets/img/gallery/gallery7.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery7.jpg"><i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div  class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery8.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery8.jpg" alt="Memories Eight" title="Memories Eight" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Eight" href="assets/img/gallery/gallery8.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery8.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div  class="lgx-single">
-                            <figure>
-                                <img title="Memories One" src="assets/img/gallery/gallery1.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery1.jpg" alt="Memories one"/>
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories One" href="assets/img/gallery/gallery1.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery1.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery5.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery5.jpg" alt="Memories Five" title="Memories Five" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Five" href="assets/img/gallery/gallery5.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery5.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery6.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery6.jpg" alt="Memories Six" title="Memories Six" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Six" href="assets/img/gallery/gallery6.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery6.jpg">
-                                                <i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div  class="lgx-single">
-                            <figure>
-                                <img src="assets/img/gallery/gallery7.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery7.jpg" alt="Memories Seven" title="Memories Seven" />
-                                <figcaption class="lgx-figcaption">
-                                    <div class="lgx-hover-link">
-                                        <div class="lgx-vertical">
-                                            <a title="Memories Seven" href="assets/img/gallery/gallery7.jpg" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/img/gallery/gallery7.jpg"><i class="fa fa-search fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div> <!--//.CONAINER-->
             </div><!--//.lgx CONTACT INNER-->
@@ -1407,7 +1178,7 @@
 <script src="assets/libs/jquery.validate.js" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/libs/jquery.validate.js"></script>
 
 <!-- if load google maps then load this api, change api key as it may expire for limit cross as this is provided with any theme -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQvRGGtL6OrpP5xVMxq_0NgiMiRhm3ycI" tppabs="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQvRGGtL6OrpP5xVMxq_0NgiMiRhm3ycI"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtqL9yhmHM6oDgwAZurSCymBL0liP6dVE" tppabs="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQvRGGtL6OrpP5xVMxq_0NgiMiRhm3ycI"></script>
 
 <!-- CUSTOM GOOGLE MAP -->
 <script type="text/javascript" src="assets/libs/gmap/jquery.googlemap.js" tppabs="http://themearth.com/demo/html/eventpoint/view/assets/libs/gmap/jquery.googlemap.js"></script>

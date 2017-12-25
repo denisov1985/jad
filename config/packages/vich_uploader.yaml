@@ -8,3 +8,6 @@ vich_uploader:
         speaker:
             uri_prefix: /images/speakers
             upload_destination: '%kernel.project_dir%/public/images/speakers'
+        photos:
+            uri_prefix: /images/photos
+            upload_destination: '%kernel.project_dir%/public/images/photos'

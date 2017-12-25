@@ -60,6 +60,11 @@ class Speaker
 
 
     /**
+     * @ORM\Column(type="integer", options={"default": 1})
+     */
+    private $weight;
+
+    /**
      * @ORM\Column(type="json", nullable=true)
      */
     private $social;
@@ -237,5 +242,20 @@ class Speaker
         $this->role = $role;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getWeight()
+    {
+        return $this->weight;
+    }
+
+    /**
+     * @param mixed $weight
+     */
+    public function setWeight($weight)
+    {
+        $this->weight = $weight;
+    }
 
 }

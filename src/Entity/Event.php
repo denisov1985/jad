@@ -45,6 +45,11 @@ class Event
     private $sponsors;
 
     /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Photo", mappedBy="event")
+     */
+    private $photos;
+
+    /**
      * @ORM\OneToMany(targetEntity="App\Entity\Activity", mappedBy="event")
      */
     private $activities;
@@ -206,6 +211,22 @@ class Event
     public function setStartedAt($startedAt)
     {
         $this->startedAt = $startedAt;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPhotos()
+    {
+        return $this->photos;
+    }
+
+    /**
+     * @param mixed $photos
+     */
+    public function setPhotos($photos)
+    {
+        $this->photos = $photos;
     }
 
 

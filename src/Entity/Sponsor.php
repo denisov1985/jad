@@ -52,7 +52,7 @@ class Sponsor
     private $updatedAt;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\SponsorType")
+     * @ORM\ManyToOne(targetEntity="App\Entity\SponsorType", inversedBy="sponsor")
      */
     private $type;
     /**
