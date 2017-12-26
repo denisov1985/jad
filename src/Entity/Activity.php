@@ -42,9 +42,9 @@ class Activity
     private $speaker;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Event", inversedBy="activities")
+     * @ORM\ManyToOne(targetEntity="App\Entity\ActivityDay", inversedBy="activities")
      */
-    private $event;
+    private $day;
 
     /**
      * @return mixed
@@ -126,21 +126,6 @@ class Activity
         $this->speaker = $speaker;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getEvent()
-    {
-        return $this->event;
-    }
-
-    /**
-     * @param mixed $event
-     */
-    public function setEvent($event)
-    {
-        $this->event = $event;
-    }
     // add your own fields
 
     public function __toString()
@@ -163,6 +148,24 @@ class Activity
     {
         $this->description = $description;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getDay()
+    {
+        return $this->day;
+    }
+
+    /**
+     * @param mixed $day
+     */
+    public function setDay($day)
+    {
+        $this->day = $day;
+    }
+
+
 
 
 }

@@ -4,12 +4,18 @@ easy_admin:
         brand_color: '#1ABC9C'
         color_scheme: 'light'
         menu:
-            - { entity: 'Event', icon: 'calendar' }
-            - { entity: 'Sponsor', icon: 'usd' }
-            - { entity: 'SponsorType', icon: 'list-ul' }
-            - { entity: 'Activity', icon: 'bullhorn' }
-            - { entity: 'Speaker', icon: 'users' }
-            - { entity: 'Photo', icon: 'photo' }
+            - entity: 'Event'
+              icon: 'calendar'
+            - entity: 'Sponsor'
+              children:
+                - { entity: 'Sponsor', icon: 'usd', label: 'Всi спонсори' }
+                - { entity: 'SponsorType', icon: 'list-ul' }
+            - entity: 'Activity'
+              children:
+                - { entity: 'Activity', icon: 'usd', label: 'Всi доповiдi' }
+                - { entity: 'ActivityDay', icon: 'tasks' }
+            - entity: 'Speaker'
+              icon: 'users'
     entities:
         Event:
             class: App\Entity\Event
@@ -53,7 +59,7 @@ easy_admin:
                     - { property: 'description', type: 'ckeditor' }
                     - { property: 'startedAt' }
                     - { property: 'endedAt' }
-                    - { property: 'event' }
+                    - { property: 'day' }
                     - { property: 'speaker' }
             list:
                 fields:
@@ -61,10 +67,23 @@ easy_admin:
                     - { property: 'name' }
                     - { property: 'startedAt' }
                     - { property: 'endedAt' }
-                    - { property: 'event' }
+                    - { property: 'day' }
                     - { property: 'speaker' }
+        ActivityDay:
+            label: 'Днi заходу'
+            class: App\Entity\ActivityDay
+            form:
+                fields:
+                    - { property: 'name' }
+                    - { property: 'event' }
+            list:
+                fields:
+                    - { property: 'id' }
+                    - { property: 'name' }
+                    - { property: 'event' }
+
         Speaker:
-            label: 'Докладачi'
+            label: 'Доповiдачi'
             class: App\Entity\Speaker
             form:
                 fields:

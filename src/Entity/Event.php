@@ -55,6 +55,11 @@ class Event
     private $activities;
 
     /**
+     * @ORM\OneToMany(targetEntity="App\Entity\ActivityDay", mappedBy="event")
+     */
+    private $days;
+
+    /**
      * @ORM\Column(type="date")
      */
     private $startedAt;
@@ -96,6 +101,22 @@ class Event
     public function setTitle($title)
     {
         $this->title = $title;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDays()
+    {
+        return $this->days;
+    }
+
+    /**
+     * @param mixed $days
+     */
+    public function setDays($days)
+    {
+        $this->days = $days;
     }
 
     /**
