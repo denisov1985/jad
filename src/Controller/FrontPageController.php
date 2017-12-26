@@ -21,9 +21,9 @@ class FrontPageController extends Controller
         $photos = $em->getRepository(Photo::class)->findAll();
 
         $titleSpeakers = $em->getRepository(Speaker::class)->findBy(['weight' => 2], ['id' => 'DESC']);
-        $speakers = $em->getRepository(Speaker::class)->findBy(['weight' => 0], [], 8);
+        $speakers = $em->getRepository(Speaker::class)->findBy([], ['id' => 'DESC'], 9);
         // replace this line with your own code!
-        return $this->render('front-page/index2.html.twig', [
+        return $this->render('front-page/index3.html.twig', [
             'event'  => $event,
             'photos' => $photos,
             'titleSpeakers' => $titleSpeakers,
