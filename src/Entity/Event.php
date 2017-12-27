@@ -55,7 +55,7 @@ class Event
     private $activities;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\ActivityDay", mappedBy="event")
+     * @ORM\OneToMany(targetEntity="App\Entity\Day", mappedBy="event")
      */
     private $days;
 

@@ -5,9 +5,9 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\ActivityDayRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\RoomRepository")
  */
-class ActivityDay
+class Room
 {
     /**
      * @ORM\Id
@@ -20,17 +20,11 @@ class ActivityDay
      * @ORM\Column(type="string")
      */
     private $name;
-    // add your own fields
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Event", inversedBy="days")
      */
     private $event;
-
-    /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Activity", mappedBy="day")
-     */
-    private $activities;
 
     /**
      * @return mixed
@@ -79,25 +73,5 @@ class ActivityDay
     {
         $this->event = $event;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getActivities()
-    {
-        return $this->activities;
-    }
-
-    /**
-     * @param mixed $activities
-     */
-    public function setActivities($activities)
-    {
-        $this->activities = $activities;
-    }
-
-    public function __toString()
-    {
-        return $this->getName();
-    }
+    // add your own fields
 }

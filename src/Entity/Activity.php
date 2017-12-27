@@ -42,7 +42,7 @@ class Activity
     private $speaker;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\ActivityDay", inversedBy="activities")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Day", inversedBy="activities")
      */
     private $day;
 

@@ -2,23 +2,23 @@
 
 namespace App\Repository;
 
-use App\Entity\ActivityDay;
+use App\Entity\Day;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
-class ActivityDayRepository extends ServiceEntityRepository
+class DayRepository extends ServiceEntityRepository
 {
     public function __construct(RegistryInterface $registry)
     {
-        parent::__construct($registry, ActivityDay::class);
+        parent::__construct($registry, Day::class);
     }
 
     /*
     public function findBySomething($value)
     {
-        return $this->createQueryBuilder('a')
-            ->where('a.something = :value')->setParameter('value', $value)
-            ->orderBy('a.id', 'ASC')
+        return $this->createQueryBuilder('d')
+            ->where('d.something = :value')->setParameter('value', $value)
+            ->orderBy('d.id', 'ASC')
             ->setMaxResults(10)
             ->getQuery()
             ->getResult()
