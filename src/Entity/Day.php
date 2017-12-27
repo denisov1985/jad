@@ -116,4 +116,10 @@ class Day
         $this->startedAt = $startedAt;
     }
     // add your own fields
+    public function __toString()
+    {
+        return $this->name . ' - ' . $this->startedAt->format('d/m/Y');
+    }
+
+
 }

@@ -69,6 +69,7 @@ class Event
     public function __construct()
     {
         $this->speakers = new ArrayCollection();
+        $this->sponsors = new ArrayCollection();
     }
 
     /**
@@ -176,6 +177,16 @@ class Event
     public function getSponsors()
     {
         return $this->sponsors;
+    }
+
+    public function getSponsorsByType()
+    {
+        $collection = [];
+        foreach ($this->sponsors as $sponsor) {
+            $collection[$sponsor->getType()->getId()]['type'] = $sponsor->getType();
+            $collection[$sponsor->getType()->getId()]['sponsors'][] = $sponsor;
+        }
+        return $collection;
     }
 
     /**

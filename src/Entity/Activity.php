@@ -27,12 +27,12 @@ class Activity
     private $description;
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="time")
      */
     private $startedAt;
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="time")
      */
     private $endedAt;
 
@@ -45,6 +45,11 @@ class Activity
      * @ORM\ManyToOne(targetEntity="App\Entity\Day", inversedBy="activities")
      */
     private $day;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Event", inversedBy="activities")
+     */
+    private $event;
 
     /**
      * @return mixed
@@ -165,7 +170,21 @@ class Activity
         $this->day = $day;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getEvent()
+    {
+        return $this->event;
+    }
 
+    /**
+     * @param mixed $event
+     */
+    public function setEvent($event)
+    {
+        $this->event = $event;
+    }
 
 
 }

@@ -13,7 +13,8 @@ easy_admin:
             - entity: 'Activity'
               children:
                 - { entity: 'Activity', icon: 'usd', label: 'Всi доповiдi' }
-                - { entity: 'ActivityDay', icon: 'tasks' }
+                - { entity: 'Day', icon: 'tasks' }
+                - { entity: 'Room', icon: 'tasks' }
             - entity: 'Speaker'
               icon: 'users'
     entities:
@@ -69,9 +70,24 @@ easy_admin:
                     - { property: 'endedAt' }
                     - { property: 'day' }
                     - { property: 'speaker' }
-        ActivityDay:
+        Day:
             label: 'Днi заходу'
-            class: App\Entity\ActivityDay
+            class: App\Entity\Day
+            form:
+                fields:
+                    - { property: 'name' }
+                    - { property: 'startedAt' }
+                    - { property: 'event' }
+            list:
+                fields:
+                    - { property: 'id' }
+                    - { property: 'name' }
+                    - { property: 'startedAt' }
+                    - { property: 'event' }
+
+        Room:
+            label: 'Кiмнати'
+            class: App\Entity\Room
             form:
                 fields:
                     - { property: 'name' }

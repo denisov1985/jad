@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6db32e24-fc74-44aa-b676-e996c855a244" name="Default" comment="Template works">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Room.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171227095833.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repository/RoomRepository.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Entity/Image.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Entity/ActivityDay.php" afterPath="$PROJECT_DIR$/src/Entity/Day.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Repository/ActivityDayRepository.php" afterPath="$PROJECT_DIR$/src/Repository/DayRepository.php" />
+    <list default="true" id="6db32e24-fc74-44aa-b676-e996c855a244" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/FrontPageController.php" afterPath="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Activity.php" afterPath="$PROJECT_DIR$/src/Entity/Activity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Day.php" afterPath="$PROJECT_DIR$/src/Entity/Day.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Event.php" afterPath="$PROJECT_DIR$/src/Entity/Event.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +30,8 @@
       <file leaf-file-name="easy_admin.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="862">
-              <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+            <state relative-caret-position="625">
+              <caret line="78" column="47" lean-forward="false" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -43,8 +40,8 @@
       <file leaf-file-name="Day.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Day.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="862">
+              <caret line="120" column="68" lean-forward="false" selection-start-line="120" selection-start-column="68" selection-end-line="120" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -53,23 +50,43 @@
       <file leaf-file-name="Room.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Room.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            <state relative-caret-position="575">
+              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Event.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            <state relative-caret-position="737">
+              <caret line="185" column="83" lean-forward="false" selection-start-line="185" selection-start-column="83" selection-end-line="185" selection-end-column="83" />
               <folding>
                 <element signature="e#30#78#0#PHP" expanded="true" />
-                <marker date="1514368586898" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
-                <marker date="1514368586898" expanded="true" signature="4117:4125" ph="{...}" />
+                <marker date="1514373091385" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
+                <marker date="1514373091385" expanded="true" signature="4496:4504" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SponsorType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/SponsorType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontPageController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,8 +94,8 @@
       <file leaf-file-name="Activity.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="412">
+              <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -97,8 +114,8 @@
       <file leaf-file-name="Version20171227095833.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171227095833.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="162">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <marker date="1514368861464" expanded="true" signature="563:619" ph="ALTER TABLE activity... " />
                 <marker date="1514368861464" expanded="true" signature="646:899" ph="CREATE TABLE... day" />
@@ -116,6 +133,35 @@
                 <marker date="1514368861464" expanded="true" signature="2627:2642" ph="DROP TABLE r... " />
                 <marker date="1514368861464" expanded="true" signature="2669:2725" ph="ALTER TABLE activity... " />
                 <marker date="1514368861464" expanded="true" signature="2752:2856" ph="ALTER TABLE activity... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20171227104757.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171227104757.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <marker date="1514371677185" expanded="true" signature="934:1031" ph="ALTER TABLE photo... " />
+                <marker date="1514371677185" expanded="true" signature="1184:1283" ph="ALTER TABLE sponsor... " />
+                <marker date="1514371677185" expanded="true" signature="1310:1415" ph="ALTER TABLE sponsor... " />
+                <marker date="1514371677185" expanded="true" signature="2031:2085" ph="ALTER TABLE photo... " />
+                <marker date="1514371677185" expanded="true" signature="2195:2251" ph="ALTER TABLE sponsor... " />
+                <marker date="1514371677185" expanded="true" signature="2278:2334" ph="ALTER TABLE sponsor... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sponsor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2763">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <marker date="1514281585103" expanded="true" signature="3195:3225" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -157,6 +203,7 @@
       <find>digital</find>
       <find>ActivityDa</find>
       <find>FK_AC74095A9C24126</find>
+      <find>sponso</find>
     </findStrings>
     <dirStrings>
       <dir>C:\symfony\jad\src\Entity</dir>
@@ -189,16 +236,16 @@
         <option value="$PROJECT_DIR$/../IvoryCKEditorBundle/composer.json" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
         <option value="$PROJECT_DIR$/templates/front-page/index3.html.twig" />
-        <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/ActivityDay.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Event.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Day.php" />
         <option value="$PROJECT_DIR$/src/Entity/Room.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Activity.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Migrations/Version20171227095833.php" />
+        <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Activity.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Day.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Event.php" />
+        <option value="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
       </list>
     </option>
   </component>
@@ -306,6 +353,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="C:/xampp1/htdocs/original" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -402,7 +450,7 @@
       <workItem from="1514112144849" duration="34000" />
       <workItem from="1514112189355" duration="10006000" />
       <workItem from="1514197972274" duration="14503000" />
-      <workItem from="1514304309693" duration="6432000" />
+      <workItem from="1514304309693" duration="9403000" />
     </task>
     <task id="LOCAL-00001" summary="Template works">
       <created>1514037025050</created>
@@ -523,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514309154181</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Template works">
+      <created>1514369035306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1514369035306</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46679000" />
+    <option name="totallyTimeSpent" value="49650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -594,17 +649,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Entity/Speaker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-            <marker date="1514281585101" expanded="true" signature="4246:4248" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
@@ -716,24 +760,6 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/snazzy-maps-example-greyscale-style.html" />
     <entry file="file://$PROJECT_DIR$/public/assets/js/custom.script.js" />
-    <entry file="file://$PROJECT_DIR$/src/Entity/SponsorType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3425">
-          <caret line="139" column="27" lean-forward="false" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
-          <folding>
-            <marker date="1514281585103" expanded="true" signature="3195:3225" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Photo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2265">
@@ -833,14 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/front-page/index2.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -882,14 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Image.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -906,22 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Day.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -930,10 +924,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="78" column="47" lean-forward="false" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171227104757.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1514371677185" expanded="true" signature="934:1031" ph="ALTER TABLE photo... " />
+            <marker date="1514371677185" expanded="true" signature="1184:1283" ph="ALTER TABLE sponsor... " />
+            <marker date="1514371677185" expanded="true" signature="1310:1415" ph="ALTER TABLE sponsor... " />
+            <marker date="1514371677185" expanded="true" signature="2031:2085" ph="ALTER TABLE photo... " />
+            <marker date="1514371677185" expanded="true" signature="2195:2251" ph="ALTER TABLE sponsor... " />
+            <marker date="1514371677185" expanded="true" signature="2278:2334" ph="ALTER TABLE sponsor... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171227095833.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="162">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
           <folding>
             <marker date="1514368861464" expanded="true" signature="563:619" ph="ALTER TABLE activity... " />
             <marker date="1514368861464" expanded="true" signature="646:899" ph="CREATE TABLE... day" />
@@ -955,23 +980,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Room.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Day.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="862">
+          <caret line="120" column="68" lean-forward="false" selection-start-line="120" selection-start-column="68" selection-end-line="120" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2763">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1514281585103" expanded="true" signature="3195:3225" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/SponsorType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        <state relative-caret-position="737">
+          <caret line="185" column="83" lean-forward="false" selection-start-line="185" selection-start-column="83" selection-end-line="185" selection-end-column="83" />
           <folding>
             <element signature="e#30#78#0#PHP" expanded="true" />
-            <marker date="1514368586898" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
-            <marker date="1514368586898" expanded="true" signature="4117:4125" ph="{...}" />
+            <marker date="1514373091385" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
+            <marker date="1514373091385" expanded="true" signature="4496:4504" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
