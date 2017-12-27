@@ -36,6 +36,7 @@ class Event
 
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\Speaker", mappedBy="event")
+     * @ORM\OrderBy({"id" = "DESC"})
      */
     private $speakers;
 
@@ -70,6 +71,7 @@ class Event
     {
         $this->speakers = new ArrayCollection();
         $this->sponsors = new ArrayCollection();
+        $this->photos   = new ArrayCollection();
     }
 
     /**
@@ -171,6 +173,11 @@ class Event
         return $this->speakers;
     }
 
+    public function getSpeakersPreview()
+    {
+        return $this->speakers->slice(0, 9);
+    }
+
     /**
      * @return mixed
      */
@@ -204,6 +211,7 @@ class Event
     {
         $this->speakers = $speakers;
     }
+
 
     /**
      * @param mixed $sponsors

@@ -47,9 +47,19 @@ class Activity
     private $day;
 
     /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Room", inversedBy="activities")
+     */
+    private $room;
+
+    /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Event", inversedBy="activities")
      */
     private $event;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\ActivityType", inversedBy="activities")
+     */
+    private $type;
 
     /**
      * @return mixed
@@ -123,6 +133,11 @@ class Activity
         return $this->speaker;
     }
 
+    public function hasSpeaker()
+    {
+        return !is_null($this->speaker);
+    }
+
     /**
      * @param mixed $speaker
      */
@@ -185,6 +200,39 @@ class Activity
     {
         $this->event = $event;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getRoom()
+    {
+        return $this->room;
+    }
+
+    /**
+     * @param mixed $room
+     */
+    public function setRoom($room)
+    {
+        $this->room = $room;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param mixed $type
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+    }
+
 
 
 }

@@ -133,7 +133,7 @@
                     </button>
                     <a class="navbar-brand" href="index.html"
                        tppabs="http://demos.codexcoder.com/labartisan/html/BigEvent/index.html"><img
-                                style="height: 64px; margin-top: -16px" src="images/javadayorgua.png"
+                                style="height: 42px; margin-top: -5px" src="images/javadayorgua.png"
                                 tppabs="http://demos.codexcoder.com/labartisan/html/BigEvent/images/logo-02.png"
                                 alt="logo" class="img-responsive"></a>
                 </div>
@@ -237,12 +237,11 @@
             </div>
             <div class="speaker-items">
                 <div class="row">
-                    {% for speaker in speakers %}
+                    {% for speaker in event.speakersPreview %}
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="speaker-item">
                                 <div class="speaker-image">
-                                    <img src="/images/speakers/{{ speaker.photo }}"
-                                         tppabs="http://demos.codexcoder.com/labartisan/html/BigEvent/images/speakers/speaker_25.jpg"
+                                    <img style="mix-blend-mode: multiply; " src="/images/speakers/{{ speaker.photo }}"
                                          alt="speaker image" class="img-responsive">
                                     <div class="speaker-overlay">
                                         <ul class="speaker-social">
@@ -270,8 +269,6 @@
                             <!-- speaker-item -->
                         </div>
                     {% endfor %}
-
-
                 </div>
                 <!-- row -->
 
@@ -295,135 +292,44 @@
 
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#day-one" aria-controls="day-one" role="tab"
+                    {% for day in event.days %}
+                    <li role="presentation" {% if (loop.index == 1) %}class="active"{% endif %}><a href="#day{{ day.id }}" aria-controls="day{{ day.id }}" role="tab"
                                                               data-toggle="tab">
-                            Day-01
-                            <span>14 december 2017</span>
+                            {{ day.name }}
+                            <span>{{ day.startedAt.format('j F Y') }}</span>
                         </a></li>
-                    <li role="presentation"><a href="#day-two" aria-controls="day-two" role="tab" data-toggle="tab">
-                            Day-02
-                            <span>18 december 2017</span>
-                        </a></li>
-                    <li role="presentation"><a href="#day-three" aria-controls="day-three" role="tab" data-toggle="tab">
-                            Day-03
-                            <span>24 december 2017</span>
-                        </a></li>
-                    <li role="presentation"><a href="#day-four" aria-controls="day-four" role="tab" data-toggle="tab">
-                            Day-04
-                            <span>29 december 2017</span>
-                        </a></li>
+                    {% endfor %}
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="day-one">
+                    {% for day in event.days %}
+                    <div role="tabpanel" class="tab-pane {% if (loop.index == 1) %}active{% endif %}" id="day{{ day.id }}">
                         <div class="schedule-table table-responsive">
                             <table>
                                 <thead>
                                 <tr>
                                     <th class="time">Time</th>
-                                    <th class="session">Session</th>
+                                    <th style="width: 38% !important;" class="session">Session</th>
                                     <th class="spekers">Spekers</th>
                                     <th class="venue">Venue</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
+                                {% for activity in day.activities %}
+                                <tr {%  if activity.type.id == 4 %}style="background-color: rgba(77,229,245,0.12)"{% endif %} {%  if activity.type.id == 3 %}style="background-color: #f5b4291f"{% endif %} {%  if activity.type.id == 1 %}style="background-color: #96f5291f"{% endif %}>
+                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>{{ activity.startedAt.format('H:i') }}-{{ activity.endedAt.format('H:i') }}
                                     </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Credibly
-                                        develop wireless opportunities
+                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>{{ activity.name }}</td>
+                                    <td class="spekers">
+                                        {% if activity.hasSpeaker() %}
+                                        <span><img style="mix-blend-mode: multiply; float: left; width: 45px; height: auto" src="/images/speakers/{{ activity.speaker.photo }}"
+                                                   alt="speaker image" class="img-responsive"></span><span style="line-height: 45px">{{ activity.speaker }}</span>
+                                        {% endif %}
                                     </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-01
-                                    </td>
+                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>{{ activity.room }}</td>
                                 </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eficiently
-                                        myocrdinate ineensive granular
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>William
-                                        John
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-02
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Appropriately
-                                        leverage other's extensible
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Raisen
-                                        Aero
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-03
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Seamlessly
-                                        coordinate economically sound.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Robot
-                                        Smith
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-04
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Through
-                                        future-proof web-readiness.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-05
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eficiently
-                                        myocrdinate ineensive granular
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>William
-                                        John
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-06
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Gredibly
-                                        develop wireless opportunities
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Raisen
-                                        Aero
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-07
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eppropriately
-                                        leverage other's extensible
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Robot
-                                        Smith
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-08
-                                    </td>
-                                </tr>
+                                {% endfor %}
                                 </tbody>
                             </table>
                         </div>
@@ -432,279 +338,7 @@
                                         class="fa fa-download" aria-hidden="true"></i></span></a>
 
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="day-two">
-                        <div class="schedule-table table-responsive">
-                            <table>
-                                <thead>
-                                <tr>
-                                    <th class="time">Time</th>
-                                    <th class="session">Session</th>
-                                    <th class="spekers">Spekers</th>
-                                    <th class="venue">Venue</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Credibly
-                                        develop wireless opportunities
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-01
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eficiently
-                                        myocrdinate ineensive granular
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>William
-                                        John
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-02
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Appropriately
-                                        leverage other's extensible
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Raisen
-                                        Aero
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-03
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Seamlessly
-                                        coordinate economically sound.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Robot
-                                        Smith
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-04
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Through
-                                        future-proof web-readiness.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-05
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eficiently
-                                        myocrdinate ineensive granular
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>William
-                                        John
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-06
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <!-- schedule-table -->
-                        <a href="#" class="schedule-button default-button">download schedule <span><i
-                                        class="fa fa-download" aria-hidden="true"></i></span></a>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="day-three">
-                        <div class="schedule-table table-responsive">
-                            <table>
-                                <thead>
-                                <tr>
-                                    <th class="time">Time</th>
-                                    <th class="session">Session</th>
-                                    <th class="spekers">Spekers</th>
-                                    <th class="venue">Venue</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Credibly
-                                        develop wireless opportunities
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-01
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eficiently
-                                        myocrdinate ineensive granular
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>William
-                                        John
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-02
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Appropriately
-                                        leverage other's extensible
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Raisen
-                                        Aero
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-03
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Seamlessly
-                                        coordinate economically sound.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Robot
-                                        Smith
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-04
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Through
-                                        future-proof web-readiness.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-05
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <!-- schedule-table -->
-                        <a href="#" class="schedule-button default-button">download schedule <span><i
-                                        class="fa fa-download" aria-hidden="true"></i></span></a>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="day-four">
-                        <div class="schedule-table table-responsive">
-                            <table>
-                                <thead>
-                                <tr>
-                                    <th class="time">Time</th>
-                                    <th class="session">Session</th>
-                                    <th class="spekers">Spekers</th>
-                                    <th class="venue">Venue</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Credibly
-                                        develop wireless opportunities
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-01
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eficiently
-                                        myocrdinate ineensive granular
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>William
-                                        John
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-02
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Appropriately
-                                        leverage other's extensible
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Raisen
-                                        Aero
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-03
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Seamlessly
-                                        coordinate economically sound.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Robot
-                                        Smith
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-04
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Through
-                                        future-proof web-readiness.
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Smith
-                                        Johnson
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-05
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Eficiently
-                                        myocrdinate ineensive granular
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>William
-                                        John
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-06
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="time"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>08:30am-04:30pm
-                                    </td>
-                                    <td class="session"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>Gredibly
-                                        develop wireless opportunities
-                                    </td>
-                                    <td class="spekers"><span><i class="fa fa-microphone" aria-hidden="true"></i></span>Raisen
-                                        Aero
-                                    </td>
-                                    <td class="venue"><span><i class="fa fa-home" aria-hidden="true"></i></span>Room-07
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <!-- schedule-table -->
-                        <a href="#" class="schedule-button default-button">download schedule <span><i
-                                        class="fa fa-download" aria-hidden="true"></i></span></a>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -814,95 +448,20 @@
                 <p><em>Quickly harness dynamic thinking through value added models.</em></p>
             </div>
 
+            {% for item in event.sponsorsByType %}
             <div class="sponsor-item">
-                <h5>Title Sponsors</h5>
+                <h5>{{ item['type'].name }}</h5>
                 <div class="row">
                     <ul class="list-inline">
-                        {% for sponsor in event.sponsors %}
-                            {% if sponsor.type.id == 1 %}
-                                <li><a  href="http://www.computerrex.com/" target="_blank">
-                                        <img style="max-height:30%; max-width:30%" src="/images/sponsors/{{ sponsor.image }}" alt="http://www.computerrex.com/"></a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <!-- sponsor-item -->
-            <div class="sponsor-item">
-                <h5>Platinum Sponsors</h5>
-                <div class="row">
-                    <ul class="list-inline">
-                        {% for sponsor in event.sponsors %}
-                            {% if sponsor.type.id == 2 %}
-                                <li style="padding: 50px"><a  href="http://www.computerrex.com/" target="_blank">
-                                        <img style="width: 200px; height: 200px" src="/images/sponsors/{{ sponsor.image }}" alt="http://www.computerrex.com/"></a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <!-- sponsor-item -->
-            <div class="sponsor-item">
-                <h5>Gold Sponsors</h5>
-                <div class="row">
-                    <ul class="list-inline">
-                        {% for sponsor in event.sponsors %}
-                            {% if sponsor.type.id == 3 %}
-                                <li style="padding: 25px"><a  href="http://www.computerrex.com/" target="_blank">
-                                        <img style="width: auto; height: 100px" src="/images/sponsors/{{ sponsor.image }}" alt="http://www.computerrex.com/"></a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <!-- sponsor-item -->
+                        {% for sponsor in item['sponsors'] %}
+                            <li style="padding: 25px"><a  href="http://www.computerrex.com/" target="_blank">
+                                    <img style="mix-blend-mode: multiply; height:100px; width:auto" src="/images/sponsors/{{ sponsor.image }}" alt="http://www.computerrex.com/"></a></li>
 
-            <!-- sponsor-item -->
-            <div class="sponsor-item">
-                <h5>Silver Sponsors</h5>
-                <div class="row">
-                    <ul class="list-inline">
-                        {% for sponsor in event.sponsors %}
-                            {% if sponsor.type.id == 4 %}
-                                <li style="padding: 25px"><a  href="http://www.computerrex.com/" target="_blank">
-                                        <img style="width: auto; height: 100px" src="/images/sponsors/{{ sponsor.image }}" alt="http://www.computerrex.com/"></a></li>
-                            {% endif %}
                         {% endfor %}
                     </ul>
                 </div>
             </div>
-            <!-- sponsor-item -->
-
-            <!-- sponsor-item -->
-            <div class="sponsor-item">
-                <h5>Bronze Sponsors</h5>
-                <div class="row">
-                    <ul class="list-inline">
-                        {% for sponsor in event.sponsors %}
-                            {% if sponsor.type.id == 5 %}
-                                <li style="padding: 25px"><a  href="http://www.computerrex.com/" target="_blank">
-                                        <img style="width: auto; height: 100px" src="/images/sponsors/{{ sponsor.image }}" alt="http://www.computerrex.com/"></a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <!-- sponsor-item -->
-
-            <!-- sponsor-item -->
-            <div class="sponsor-item">
-                <h5>Whiskey Sponsors</h5>
-                <div class="row">
-                    <ul class="list-inline">
-                        {% for sponsor in event.sponsors %}
-                            {% if sponsor.type.id == 6 %}
-                                <li style="padding: 25px"><a  href="http://www.computerrex.com/" target="_blank">
-                                        <img style="width: auto; height: 100px" src="/images/sponsors/{{ sponsor.image }}" alt="http://www.computerrex.com/"></a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+            {% endfor %}
             <!-- sponsor-item -->
             <a href="#" class="sponsor-button default-button">become a sponsors</a>
         </div>
@@ -1208,7 +767,7 @@
     <footer class="footer-six">
         <div class="overlay home-six-overlay">
             <div class="container">
-                <h2>BigEvent</h2>
+                <h2>JavaDay 2018</h2>
                 <ul class="event-social">
                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -1284,7 +843,7 @@
         tppabs="http://demos.codexcoder.com/labartisan/html/BigEvent/assets/js/jquery.easing.min.js"></script>
 
 <!-- Google Map -->
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAQlXnmyNPAeN3c3HNyWoUMqDk6bDF31Cg"
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAQlXnmyNPAeN3c3HNyWoUMqDk6bDF31Cg&center=-33.9,151.14999999999998&zoom=12&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0xebe3cd&style=element:labels.text.fill%7Ccolor:0x523735&style=element:labels.text.stroke%7Ccolor:0xf5f1e6&style=feature:administrative%7Celement:geometry.stroke%7Ccolor:0xc9b2a6&style=feature:administrative.land_parcel%7Celement:geometry.stroke%7Ccolor:0xdcd2be&style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0xae9e90&style=feature:landscape.natural%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:poi%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x93817c&style=feature:poi.park%7Celement:geometry.fill%7Ccolor:0xa5b076&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x447530&style=feature:road%7Celement:geometry%7Ccolor:0xf5f1e6&style=feature:road.arterial%7Celement:geometry%7Ccolor:0xfdfcf8&style=feature:road.highway%7Celement:geometry%7Ccolor:0xf8c967&style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0xe9bc62&style=feature:road.highway.controlled_access%7Celement:geometry%7Ccolor:0xe98d58&style=feature:road.highway.controlled_access%7Celement:geometry.stroke%7Ccolor:0xdb8555&style=feature:road.local%7Celement:labels.text.fill%7Ccolor:0x806b63&style=feature:transit.line%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:transit.line%7Celement:labels.text.fill%7Ccolor:0x8f7d77&style=feature:transit.line%7Celement:labels.text.stroke%7Ccolor:0xebe3cd&style=feature:transit.station%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:water%7Celement:geometry.fill%7Ccolor:0xb9d3c2&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x92998d&size=480x360"
         tppabs="http://maps.googleapis.com/maps/api/js?key=AIzaSyAQlXnmyNPAeN3c3HNyWoUMqDk6bDF31Cg"></script>
 
 <!-- Custom -->
@@ -1293,13 +852,221 @@
 
 <script type="text/javascript">
     //Home Page map
-    var styleArray = [{
-        "featureType": "water",
-        "elementType": "http://demos.codexcoder.com/labartisan/html/BigEvent/geometry.fill",
-        "stylers": [{
-            "color": "#65ac4c"
-        }]
-    }];
+    var styleArray = [
+        {
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#ebe3cd"
+                }
+            ]
+        },
+        {
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#523735"
+                }
+            ]
+        },
+        {
+            "elementType": "labels.text.stroke",
+            "stylers": [
+                {
+                    "color": "#f5f1e6"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#c9b2a6"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative.land_parcel",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#dcd2be"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative.land_parcel",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#ae9e90"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape.natural",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#dfd2ae"
+                }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#dfd2ae"
+                }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#93817c"
+                }
+            ]
+        },
+        {
+            "featureType": "poi.park",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#a5b076"
+                }
+            ]
+        },
+        {
+            "featureType": "poi.park",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#447530"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#f5f1e6"
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#fdfcf8"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#f8c967"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#e9bc62"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#e98d58"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#db8555"
+                }
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#806b63"
+                }
+            ]
+        },
+        {
+            "featureType": "transit.line",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#dfd2ae"
+                }
+            ]
+        },
+        {
+            "featureType": "transit.line",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#8f7d77"
+                }
+            ]
+        },
+        {
+            "featureType": "transit.line",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+                {
+                    "color": "#ebe3cd"
+                }
+            ]
+        },
+        {
+            "featureType": "transit.station",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "color": "#dfd2ae"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#b9d3c2"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#92998d"
+                }
+            ]
+        }
+    ];
 
     var mapOptions = {
         center: new google.maps.LatLng(50.449122,30.541155),
@@ -1319,15 +1086,6 @@
         icon: 'images/map-icon.png'/*tpa=http://demos.codexcoder.com/labartisan/html/BigEvent/images/map-icon.png*/
     });
 
-
-    //Travel map
-    var styleArray = [{
-        "featureType": "water",
-        "elementType": "http://demos.codexcoder.com/labartisan/html/BigEvent/geometry.fill",
-        "stylers": [{
-            "color": "#65ac4c"
-        }]
-    }];
 
     var mapOptions = {
         center: new google.maps.LatLng(50.449122,30.541155),

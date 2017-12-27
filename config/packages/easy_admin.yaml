@@ -14,7 +14,8 @@ easy_admin:
               children:
                 - { entity: 'Activity', icon: 'usd', label: 'Всi доповiдi' }
                 - { entity: 'Day', icon: 'tasks' }
-                - { entity: 'Room', icon: 'tasks' }
+                - { entity: 'Room', icon: 'building' }
+                - { entity: 'ActivityType', icon: 'list-ul' }
             - entity: 'Speaker'
               icon: 'users'
     entities:
@@ -51,6 +52,14 @@ easy_admin:
             form:
                 fields:
                     - { property: 'name' }
+
+        ActivityType:
+            label: 'Категорiї заходiв'
+            class: App\Entity\ActivityType
+            form:
+                fields:
+                    - { property: 'name' }
+
         Activity:
             label: 'Доповiдi'
             class: App\Entity\Activity
@@ -61,6 +70,8 @@ easy_admin:
                     - { property: 'startedAt' }
                     - { property: 'endedAt' }
                     - { property: 'day' }
+                    - { property: 'room' }
+                    - { property: 'type' }
                     - { property: 'speaker' }
             list:
                 fields:
@@ -68,7 +79,9 @@ easy_admin:
                     - { property: 'name' }
                     - { property: 'startedAt' }
                     - { property: 'endedAt' }
+                    - { property: 'type' }
                     - { property: 'day' }
+                    - { property: 'room' }
                     - { property: 'speaker' }
         Day:
             label: 'Днi заходу'
