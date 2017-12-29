@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6d5c9c77402792b5dd01eab420075b4",
+    "content-hash": "64c23415b6b39822e31980857a2af1a7",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -4987,8 +4987,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "symfony/lts": 20,
-        "egeloen/ckeditor-bundle": 20
+        "egeloen/ckeditor-bundle": 20,
+        "symfony/lts": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

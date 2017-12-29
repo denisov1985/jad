@@ -13,3 +13,8 @@ framework:
     #fragments: ~
     php_errors:
         log: true
+
+    assets:
+        packages:
+            2018:
+                base_path: '/assets/2018'

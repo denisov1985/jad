@@ -56,6 +56,11 @@ class Event
     private $activities;
 
     /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Section", mappedBy="event")
+     */
+    private $sections;
+
+    /**
      * @ORM\OneToMany(targetEntity="App\Entity\Day", mappedBy="event")
      */
     private $days;
@@ -72,6 +77,23 @@ class Event
         $this->speakers = new ArrayCollection();
         $this->sponsors = new ArrayCollection();
         $this->photos   = new ArrayCollection();
+        $this->sections = new ArrayCollection();
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSections()
+    {
+        return $this->sections;
+    }
+
+    /**
+     * @param mixed $sections
+     */
+    public function setSections($sections)
+    {
+        $this->sections = $sections;
     }
 
     /**

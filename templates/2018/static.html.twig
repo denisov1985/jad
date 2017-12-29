@@ -1,0 +1,54 @@
+{% extends '2018/base.html.twig' %}
+
+{% block content %}
+    <section class="banner banner-five">
+        <div class="banner-overlay"></div>
+        <!-- overlay -->
+        <div class="content-left">
+            <span class="counter" data-count="24">24</span>
+            <p>December 2017</p>
+        </div>
+        <!-- content-left -->
+        <div style="margin-bottom: -2px;" class="content-right">
+            <div class="content">
+                <p>don't miss the upcoming event</p>
+                <h2>BUSINESS CONFERENCE 2017</h2>
+                <ul id="countdown" class="countdown">
+                    <li class="clock-item"><span class="count-number days">575</span>
+                        <p class="days_text count-text">Days</p>
+                    </li>
+
+                    <li class="clock-item"><span class="count-number hours">01</span>
+                        <p class="hours_text count-text">Hour</p>
+                    </li>
+
+                    <li class="clock-item"><span class="count-number minutes">05</span>
+                        <p class="minutes_text count-text">Minutes</p>
+                    </li>
+
+                    <li class="clock-item"><span class="count-number seconds">18</span>
+                        <p class="seconds_text count-text">Seconds</p>
+                    </li>
+                </ul>
+                <a href="#" class="banner-button default-button">booking now</a>
+            </div>
+        </div>
+        <!-- content-right -->
+    </section>
+
+    <section class="page-header">
+        <div class="container">
+            <div class="content">
+                <h4>Event speakers</h4>
+                <ul>
+                    <li><span><i class="fa fa-home" aria-hidden="true"></i></span> <a href="index.html" tppabs="http://demos.codexcoder.com/labartisan/html/BigEvent/index.html">Home</a> <span>|</span></li>
+                    <li>speakers</li>
+                </ul>
+            </div>
+        </div>
+        <!-- container -->
+    </section>
+
+    {% block body %}{% endblock %}
+
+{% endblock %}

@@ -2,8 +2,419 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db32e24-fc74-44aa-b676-e996c855a244" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/flaticon/Flaticon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/flaticon/Flaticon.eot-" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/flaticon/Flaticon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/flaticon/Flaticon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/lightcase.eot-55356177" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/lightcase.ttf-55356177" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/lightcase.woff-55356177" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/backgrounds/bg-banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/award_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/award_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/award_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/award_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker-details.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/speaker_30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsor_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/banner-bg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/flexslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/jquery.nstSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/lightcase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/quick-view.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/css/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/flaticon/Flaticon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/flaticon/flaticon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/lightcase.svg-55356177" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/circle-progress-functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/circle-progress.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/directional-hover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/flexfunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/flexslider-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/jquery-migrate-1.4.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/jquery.countdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/jquery.nstSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/lightcase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/masonry.pkgd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/nstfunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/quick-view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/swiper.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/2018/js/velocity.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171229100438.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171229100819.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171229101646.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171229102121.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20171229102256.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repository/SectionRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/blog/list.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/blog/single.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/pages/blog.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/pages/onepage.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/pages/speakers.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/pages/sponsors.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/2018/static.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/front-page/index4.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/css/style-default.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/banner-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/banner-inner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/banner-man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/banner-style-inner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/banner-style.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/banner-style2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/blog-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/blog-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/android-icon-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-152x152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-180x180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-60x60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/apple-icon-76x76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/favicon/favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/footer-style.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/gallery/gallery8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/image-alignment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/info-icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/info-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/info-icon3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/map/map-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/register-bg-slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/register-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule-bg-style.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/schedule/speaker8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/slider1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/slider2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/slider3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/speakers/speaker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/speakers/speaker2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/speakers/speaker3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/speakers/speaker4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/speakers/speaker5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/speakers/speaker6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/speakers/speaker7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors/sponsor1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors/sponsor2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors/sponsor3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors/sponsor4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors/sponsor5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors/sponsor6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/sponsors/sponsor7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/testi-client.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/testi-client2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/testi-client3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/video-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/img/video-bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/js/custom.script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/js/vendor/jquery-1.12.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/animate/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/fontawesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/gmap/jquery.googlemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/jquery.smooth-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/jquery.smooth-scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/maginificpopup/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/maginificpopup/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/owlcarousel/owl.carousel.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/owlcarousel/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/owlcarousel/owl.theme.default.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/timer/TimeCircles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/timer/TimeCircles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets1/libs/typed/typed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/faces/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/1s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/2s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/3s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/4s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/5s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/6s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/7s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/gallery/8s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/promo/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/promo/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/promo/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/schedule/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/slider/s-c-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/slider/s-c-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/slider/s-c-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/slider/s-s-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/slider/s-s-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/slider/s-s-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/speakers/5928102ae0caf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/statistics/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/statistics/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/statistics/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images1/statistics/4.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/banner-bg.css" afterPath="$PROJECT_DIR$/public/assets.old/css/banner-bg.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/assets.old/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/flexslider.css" afterPath="$PROJECT_DIR$/public/assets.old/css/flexslider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/assets.old/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/jquery.nstSlider.css" afterPath="$PROJECT_DIR$/public/assets.old/css/jquery.nstSlider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/lightcase.css" afterPath="$PROJECT_DIR$/public/assets.old/css/lightcase.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/quick-view.css" afterPath="$PROJECT_DIR$/public/assets.old/css/quick-view.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/responsive.css" afterPath="$PROJECT_DIR$/public/assets.old/css/responsive.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets.old/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/css/swiper.min.css" afterPath="$PROJECT_DIR$/public/assets.old/css/swiper.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/flaticon/Flaticon.eot" afterPath="$PROJECT_DIR$/public/assets.old/flaticon/Flaticon.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/flaticon/Flaticon.eot-" afterPath="$PROJECT_DIR$/public/assets.old/flaticon/Flaticon.eot-" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/flaticon/Flaticon.svg" afterPath="$PROJECT_DIR$/public/assets.old/flaticon/Flaticon.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/flaticon/Flaticon.ttf" afterPath="$PROJECT_DIR$/public/assets.old/flaticon/Flaticon.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/flaticon/Flaticon.woff" afterPath="$PROJECT_DIR$/public/assets.old/flaticon/Flaticon.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/flaticon/flaticon.css" afterPath="$PROJECT_DIR$/public/assets.old/flaticon/flaticon.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot-" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/fontawesome-webfont.eot-" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/fontawesome-webfont.eot-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/fontawesome-webfont.svg-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/fontawesome-webfont.ttf-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/fontawesome-webfont.woff-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/fontawesome-webfont.woff2-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot-" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/glyphicons-halflings-regular.eot-" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/assets/2018/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/lightcase.eot-55356177" afterPath="$PROJECT_DIR$/public/assets.old/fonts/lightcase.eot-55356177" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/lightcase.svg-55356177" afterPath="$PROJECT_DIR$/public/assets.old/fonts/lightcase.svg-55356177" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/lightcase.ttf-55356177" afterPath="$PROJECT_DIR$/public/assets.old/fonts/lightcase.ttf-55356177" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/fonts/lightcase.woff-55356177" afterPath="$PROJECT_DIR$/public/assets.old/fonts/lightcase.woff-55356177" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/circle-progress-functions.js" afterPath="$PROJECT_DIR$/public/assets.old/js/circle-progress-functions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/circle-progress.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/circle-progress.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/custom.js" afterPath="$PROJECT_DIR$/public/assets.old/js/custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/directional-hover.js" afterPath="$PROJECT_DIR$/public/assets.old/js/directional-hover.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/flexfunctions.js" afterPath="$PROJECT_DIR$/public/assets.old/js/flexfunctions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/flexslider-min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/flexslider-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/jquery-3.1.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/jquery-migrate-1.4.1.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/jquery-migrate-1.4.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/jquery.countdown.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/jquery.countdown.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/public/assets/2018/js/jquery.easing.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/jquery.nstSlider.js" afterPath="$PROJECT_DIR$/public/assets.old/js/jquery.nstSlider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/lightcase.js" afterPath="$PROJECT_DIR$/public/assets.old/js/lightcase.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/masonry.pkgd.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/masonry.pkgd.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/modernizr.js" afterPath="$PROJECT_DIR$/public/assets.old/js/modernizr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/nstfunctions.js" afterPath="$PROJECT_DIR$/public/assets.old/js/nstfunctions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/quick-view.js" afterPath="$PROJECT_DIR$/public/assets.old/js/quick-view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/swiper.jquery.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/swiper.jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/velocity.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/velocity.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/assets.old/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/fonts/glyphicons-halflings-regular.eot-" afterPath="$PROJECT_DIR$/public/assets.old/fonts/glyphicons-halflings-regular.eot-" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/assets.old/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/assets.old/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/assets.old/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/assets.old/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/assets/2018/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/fontawesome/fonts/fontawesome-webfont.eot-" afterPath="$PROJECT_DIR$/public/assets.old/fonts/fontawesome-webfont.eot-" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/fontawesome/fonts/fontawesome-webfont.eot-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets.old/fonts/fontawesome-webfont.eot-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/fontawesome/fonts/fontawesome-webfont.svg-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets.old/fonts/fontawesome-webfont.svg-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/fontawesome/fonts/fontawesome-webfont.ttf-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets.old/fonts/fontawesome-webfont.ttf-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/fontawesome/fonts/fontawesome-webfont.woff-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets.old/fonts/fontawesome-webfont.woff-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/fontawesome/fonts/fontawesome-webfont.woff2-v=4.7.0" afterPath="$PROJECT_DIR$/public/assets.old/fonts/fontawesome-webfont.woff2-v=4.7.0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets1/libs/jquery.easing.min.js" afterPath="$PROJECT_DIR$/public/assets.old/js/jquery.easing.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23509046_1477500618985266_1937836353605933920_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23509046_1477500618985266_1937836353605933920_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23509219_1477500932318568_5411050209139180752_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23509219_1477500932318568_5411050209139180752_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23511062_1477502262318435_8365298154193704495_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23511062_1477502262318435_8365298154193704495_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23511485_1477501362318525_8930420704261642388_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23511485_1477501362318525_8930420704261642388_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23550324_1477501375651857_7851715207408012481_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23550324_1477501375651857_7851715207408012481_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23550847_1477502422318419_9119390379164146839_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23550847_1477502422318419_9119390379164146839_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23551131_1477502105651784_8399571185221021853_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23551131_1477502105651784_8399571185221021853_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23592111_1477501632318498_168363859215925255_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23592111_1477501632318498_168363859215925255_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23592205_1477499715652023_3516033041120557183_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23592205_1477499715652023_3516033041120557183_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23592268_1477500365651958_8570365543316889476_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23592268_1477500365651958_8570365543316889476_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23593328_1477502558985072_7648205238211975939_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23593328_1477502558985072_7648205238211975939_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23593391_1477501822318479_7616139053756166398_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23593391_1477501822318479_7616139053756166398_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23631937_1477500672318594_8262263859165608723_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23631937_1477500672318594_8262263859165608723_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23632031_1477501305651864_8848546443623305218_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23632031_1477501305651864_8848546443623305218_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23632567_1477515885650406_1030254188829430187_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23632567_1477515885650406_1030254188829430187_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/photos/23669067_1477563055645689_6127450988165914594_o.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/photos/23669067_1477563055645689_6127450988165914594_o.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/1.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/2.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/3.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/4.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/591ee8e14a845.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/591ee8e14a845.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/591ee92b20b5a.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/591ee92b20b5a.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/591ee97d2671d.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/591ee97d2671d.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59280689c76ae.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59280689c76ae.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5928080b35caa.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5928080b35caa.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59280899585e4.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59280899585e4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59280c2475a84.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59280c2475a84.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59280d95b1a41.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59280d95b1a41.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59280eb09e512.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59280eb09e512.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996a5ab6d4b4.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996a5ab6d4b4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996b15bd4b89.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996b15bd4b89.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996b484106dc.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996b484106dc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996b5e351373.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996b5e351373.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996b70817dd0.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996b70817dd0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996b84493ef7.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996b84493ef7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996b9e49efef.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996b9e49efef.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996bb4b23d37.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996bb4b23d37.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/5996c47d906a1.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/5996c47d906a1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59e760bc232df.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59e760bc232df.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59e766bbaf8ea.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59e766bbaf8ea.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59e770b59f27b.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59e770b59f27b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59e7728332c32.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59e7728332c32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59e77882e44c6.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59e77882e44c6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59e779c4b6680.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59e779c4b6680.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edb9b8edcdb.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edb9b8edcdb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edc04dc2ad5.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edc04dc2ad5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edc4fcc706b.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edc4fcc706b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edcf396a3cc.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edcf396a3cc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edd0beb4d5f.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edd0beb4d5f.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edd19283381.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edd19283381.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edd232263a5.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edd232263a5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edd545d9f43.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edd545d9f43.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59edd61abbb9c.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59edd61abbb9c.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59ee1282f00fb.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59ee1282f00fb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59ee133703e0d.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59ee133703e0d.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59ee15887b92d.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59ee15887b92d.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59ee1601b7c78.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59ee1601b7c78.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59ee185d5d715.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59ee185d5d715.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59ee1944a7c9a.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59ee1944a7c9a.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59ee1ab09159d.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59ee1ab09159d.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f1f5857e105.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f1f5857e105.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f1f758c0475.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f1f758c0475.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f1fe00c58bb.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f1fe00c58bb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f206c69885c.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f206c69885c.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f312a317e6b.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f312a317e6b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f312ffcd8b3.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f312ffcd8b3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f343a13b8a7.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f343a13b8a7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f350c139cb2.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f350c139cb2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f351a5ecdac.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f351a5ecdac.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f353304de25.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f353304de25.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f64a5761b38.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f64a5761b38.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f64f3eed36b.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f64f3eed36b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f651f2d36c3.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f651f2d36c3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f65317611aa.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f65317611aa.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f653e0ce352.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f653e0ce352.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f655a7cd43b.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f655a7cd43b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f6570a875c3.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f6570a875c3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f658b9b7678.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f658b9b7678.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f659dce7064.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f659dce7064.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f65aff90eb4.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f65aff90eb4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/59f65b928bc17.png" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/59f65b928bc17.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/6.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/speakers/LSDenys-1010.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/speakers/LSDenys-1010.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/1066-bank.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/1066-bank.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/1618-Levi9.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/1618-Levi9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/2349-JD2.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/2349-JD2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/2928-SKODA2.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/2928-SKODA2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/3452-0001.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/3452-0001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/3456-Cogniance.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/3456-Cogniance.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/3468-MC.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/3468-MC.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/3624-INTELLIAS_LOGOTYPE_180x80.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/3624-INTELLIAS_LOGOTYPE_180x80.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/4894-Dell_Logo_Blue_rgb.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/4894-Dell_Logo_Blue_rgb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/5505-WIX.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/5505-WIX.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/6126-GlobalLogic.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/6126-GlobalLogic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/6616-altbank_logo_eng.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/6616-altbank_logo_eng.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/6876-infopulse.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/6876-infopulse.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/7152-Valtech.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/7152-Valtech.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/7835-RH.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/7835-RH.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/8117-Playtika.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/8117-Playtika.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/8951-LXFT.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/8951-LXFT.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/997-sigma.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/997-sigma.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/logo.png" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/sponsors-logo-1.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsors-logo-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images1/sponsors/sponsors-logo.jpg" afterPath="$PROJECT_DIR$/public/uploads/images/sponsors/sponsors-logo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/media/festival.mp4" afterPath="$PROJECT_DIR$/public/assets/2018/media/festival.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/backgrounds/bg-banner.jpg" afterPath="$PROJECT_DIR$/public/images/backgrounds/bg-banner.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/front-page/index3.html.twig" afterPath="$PROJECT_DIR$/templates/front-page/index3.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/ivory_ck_editor.yaml" afterPath="$PROJECT_DIR$/config/packages/ivory_ck_editor.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/FrontPageController.php" afterPath="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Event.php" afterPath="$PROJECT_DIR$/src/Entity/Event.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +437,18 @@
       <file leaf-file-name="easy_admin.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+            <state relative-caret-position="550">
+              <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ivory_ck_editor.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/ivory_ck_editor.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -43,24 +464,192 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index3.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index3.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/front-page/index3.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="315" column="37" lean-forward="true" selection-start-line="315" selection-start-column="37" selection-end-line="315" selection-end-column="37" />
+            <state relative-caret-position="337">
+              <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="762" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#span#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#44561#49785#0#HTML" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/2018/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onepage.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/2018/pages/onepage.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <element signature="e#12#31#0#Twig" expanded="true" />
+                <element signature="e#91#706#0#HTML" expanded="false" />
+                <element signature="e#772#3011#0#HTML" expanded="false" />
+                <element signature="e#3079#5802#0#HTML" expanded="false" />
+                <element signature="e#3740#3774#0#HTML" expanded="true" />
+                <element signature="e#5874#9937#0#HTML" expanded="false" />
+                <element signature="e#7440#7470#0#HTML" expanded="true" />
+                <element signature="e#7890#7968#0#HTML" expanded="true" />
+                <element signature="e#7980#8046#0#HTML" expanded="true" />
+                <element signature="e#8058#8124#0#HTML" expanded="true" />
+                <element signature="e#8743#8815#0#HTML" expanded="true" />
+                <element signature="e#8987#9012#0#HTML" expanded="true" />
+                <element signature="e#10031#15118#0#HTML" expanded="false" />
+                <element signature="e#15208#16438#0#HTML" expanded="false" />
+                <element signature="e#15848#15869#0#HTML" expanded="true" />
+                <element signature="e#15971#16029#0#HTML" expanded="true" />
+                <element signature="e#16529#20933#0#HTML" expanded="false" />
+                <element signature="e#22694#25183#0#HTML" expanded="false" />
+                <element signature="e#30960#31056#0#HTML" expanded="false" />
+                <element signature="e#31124#31546#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/2018/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasyAdminDataCollector.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/DataCollector/EasyAdminDataCollector.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1800">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotations.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes/annotations.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasyAdminEvents.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Event/EasyAdminEvents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1625">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerListener.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EventListener/ControllerListener.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1213">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundles.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/bundles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Section.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Section.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="31" column="72" lean-forward="false" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index4.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/front-page/index4.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="149" column="67" lean-forward="false" selection-start-line="149" selection-start-column="67" selection-end-line="149" selection-end-column="67" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="41" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,11 +678,11 @@
         <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="177" column="42" lean-forward="false" selection-start-line="177" selection-start-column="42" selection-end-line="177" selection-end-column="42" />
+              <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
               <folding>
                 <element signature="e#30#78#0#PHP" expanded="true" />
-                <marker date="1514374265263" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
-                <marker date="1514374265263" expanded="true" signature="4682:4690" ph="{...}" />
+                <marker date="1514545163242" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
+                <marker date="1514545163242" expanded="true" signature="5101:5109" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -122,74 +711,88 @@
       <file leaf-file-name="FrontPageController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="637">
+              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="500">
+              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Version20171227095833.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171227095833.php">
+      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/2018/blog/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="302" column="14" lean-forward="false" selection-start-line="302" selection-start-column="14" selection-end-line="302" selection-end-column="14" />
               <folding>
-                <marker date="1514368861464" expanded="true" signature="563:619" ph="ALTER TABLE activity... " />
-                <marker date="1514368861464" expanded="true" signature="646:899" ph="CREATE TABLE... day" />
-                <marker date="1514368861464" expanded="true" signature="926:1154" ph="CREATE TABLE... room" />
-                <marker date="1514368861464" expanded="true" signature="1181:1276" ph="ALTER TABLE day... " />
-                <marker date="1514368861464" expanded="true" signature="1303:1399" ph="ALTER TABLE room... " />
-                <marker date="1514368861464" expanded="true" signature="1426:1449" ph="DROP TABLE a... " />
-                <marker date="1514368861464" expanded="true" signature="1476:1492" ph="DROP TABLE i... " />
-                <marker date="1514368861464" expanded="true" signature="1519:1614" ph="ALTER TABLE activity... " />
-                <marker date="1514368861464" expanded="true" signature="1923:1979" ph="ALTER TABLE activity... " />
-                <marker date="1514368861464" expanded="true" signature="2006:2266" ph="CREATE TABLE... activity_day" />
-                <marker date="1514368861464" expanded="true" signature="2293:2428" ph="CREATE TABLE... image" />
-                <marker date="1514368861464" expanded="true" signature="2455:2559" ph="ALTER TABLE activity_day... " />
-                <marker date="1514368861464" expanded="true" signature="2586:2600" ph="DROP TABLE d... " />
-                <marker date="1514368861464" expanded="true" signature="2627:2642" ph="DROP TABLE r... " />
-                <marker date="1514368861464" expanded="true" signature="2669:2725" ph="ALTER TABLE activity... " />
-                <marker date="1514368861464" expanded="true" signature="2752:2856" ph="ALTER TABLE activity... " />
+                <element signature="e#61#19764#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Version20171227104757.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171227104757.php">
+      <file leaf-file-name="single.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/2018/blog/single.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="325">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="speakers.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/2018/pages/speakers.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
-                <marker date="1514371677185" expanded="true" signature="934:1031" ph="ALTER TABLE photo... " />
-                <marker date="1514371677185" expanded="true" signature="1184:1283" ph="ALTER TABLE sponsor... " />
-                <marker date="1514371677185" expanded="true" signature="1310:1415" ph="ALTER TABLE sponsor... " />
-                <marker date="1514371677185" expanded="true" signature="2031:2085" ph="ALTER TABLE photo... " />
-                <marker date="1514371677185" expanded="true" signature="2195:2251" ph="ALTER TABLE sponsor... " />
-                <marker date="1514371677185" expanded="true" signature="2278:2334" ph="ALTER TABLE sponsor... " />
+                <element signature="e#12#33#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sponsor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
+      <file leaf-file-name="static.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/2018/static.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="56" selection-end-column="18" />
+            <state relative-caret-position="275">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
-                <marker date="1514281585103" expanded="true" signature="3195:3225" ph="{...}" />
+                <element signature="e#352#380#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sponsors.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/2018/pages/sponsors.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#61#4951#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/2018/pages/blog.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="302" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="14" />
+              <folding>
+                <element signature="e#61#19764#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -206,8 +809,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>file_p</find>
-      <find>speaker-info</find>
       <find>$company</find>
       <find>speaker-block</find>
       <find>switche</find>
@@ -236,7 +837,12 @@
       <find>tab</find>
       <find>sponsors</find>
       <find>38</find>
+      <find>[0]</find>
+      <find>assets</find>
     </findStrings>
+    <replaceStrings>
+      <replace>assets/2018</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\symfony\jad\src\Entity</dir>
       <dir>C:\symfony\jad\src\Migrations</dir>
@@ -272,13 +878,27 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Migrations/Version20171227095833.php" />
         <option value="$PROJECT_DIR$/src/Entity/Day.php" />
-        <option value="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Event.php" />
         <option value="$PROJECT_DIR$/src/Entity/Room.php" />
         <option value="$PROJECT_DIR$/src/Entity/ActivityType.php" />
-        <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/Activity.php" />
         <option value="$PROJECT_DIR$/templates/front-page/index3.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Section.php" />
+        <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Event.php" />
+        <option value="$PROJECT_DIR$/config/packages/ivory_ck_editor.yaml" />
+        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
+        <option value="$PROJECT_DIR$/src/Controller/PageController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/BaseController.php" />
+        <option value="$PROJECT_DIR$/templates/2018/pages/speakers.html.twig" />
+        <option value="$PROJECT_DIR$/templates/2018/static.html.twig" />
+        <option value="$PROJECT_DIR$/templates/2018/pages/sponsors.html.twig" />
+        <option value="$PROJECT_DIR$/templates/2018/pages/blog.html.twig" />
+        <option value="$PROJECT_DIR$/templates/2018/blog/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front-page/index4.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/BlogController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/FrontPageController.php" />
+        <option value="$PROJECT_DIR$/templates/2018/pages/onepage.html.twig" />
+        <option value="$PROJECT_DIR$/templates/2018/base.html.twig" />
       </list>
     </option>
   </component>
@@ -331,6 +951,30 @@
             <path>
               <item name="jad" type="b2602c69:ProjectViewProjectNode" />
               <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2018" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -342,81 +986,13 @@
             <path>
               <item name="jad" type="b2602c69:ProjectViewProjectNode" />
               <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="jad" type="b2602c69:ProjectViewProjectNode" />
               <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="front-page" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javiereguiluz" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javiereguiluz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="easyadmin-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javiereguiluz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="easyadmin-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javiereguiluz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="easyadmin-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javiereguiluz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="easyadmin-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jad" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javiereguiluz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="easyadmin-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2018" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -440,11 +1016,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\symfony\jad\public\admin\bundles" />
-      <recent name="D:\symfony\jad\public" />
-      <recent name="C:\symfony\jad\src\Form" />
+      <recent name="C:\symfony\jad\public\uploads\images" />
+      <recent name="C:\symfony\jad\public\assets\2018" />
+      <recent name="C:\symfony\jad\templates\2018\blog" />
+      <recent name="C:\symfony\jad\src\Controller" />
+      <recent name="C:\symfony\jad\templates\2018\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\symfony\jad\public\assets\2018" />
       <recent name="D:\symfony\jad\public\assets\img\map" />
     </key>
   </component>
@@ -533,7 +1112,7 @@
       <workItem from="1514112144849" duration="34000" />
       <workItem from="1514112189355" duration="10006000" />
       <workItem from="1514197972274" duration="14503000" />
-      <workItem from="1514304309693" duration="16171000" />
+      <workItem from="1514304309693" duration="31541000" />
     </task>
     <task id="LOCAL-00001" summary="Template works">
       <created>1514037025050</created>
@@ -675,11 +1254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514380015393</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Template works">
+      <created>1514380335976</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1514380335976</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56418000" />
+    <option name="totallyTimeSpent" value="71788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -746,167 +1332,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/translation.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20171222140622.php" />
-    <entry file="file://$PROJECT_DIR$/src/Form/SpeakerFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/SpeakerType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/easyadminbundle/finish/app/config/config.yml" />
-    <entry file="file://$USER_HOME$/Downloads/easyadminbundle/finish/app/config/admin.yml" />
-    <entry file="file://$PROJECT_DIR$/templates/front-page/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20850">
-          <caret line="834" column="39" lean-forward="false" selection-start-line="834" selection-start-column="39" selection-end-line="834" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/sponsors/sponsors-logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/sponsors/sponsors-logo-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/SpeakerSocial.php" />
-    <entry file="file://$PROJECT_DIR$/public/assets/js/vendor/jquery-1.12.4.min.js" />
-    <entry file="file://$PROJECT_DIR$/src/Command/ParseCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="104" column="74" lean-forward="false" selection-start-line="104" selection-start-column="74" selection-end-line="104" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/Resources/speakers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2675">
-          <caret line="107" column="26" lean-forward="false" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/snazzy-maps-example-greyscale-style.html" />
-    <entry file="file://$PROJECT_DIR$/public/assets/js/custom.script.js" />
-    <entry file="file://$PROJECT_DIR$/src/Entity/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="124" column="28" lean-forward="false" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/vich_uploader.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Speaker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="77" column="50" lean-forward="false" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="false" />
-            <marker date="1514281585101" expanded="true" signature="4246:4248" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="e#7#22#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="70" column="29" lean-forward="false" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/dev/web_profiler.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/dev/routing.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1021,34 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="177" column="42" lean-forward="false" selection-start-line="177" selection-start-column="42" selection-end-line="177" selection-end-column="42" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-            <marker date="1514374265263" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
-            <marker date="1514374265263" expanded="true" signature="4682:4690" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/SponsorType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Sponsor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -1056,6 +1453,32 @@
           <folding>
             <marker date="1514281585103" expanded="true" signature="3195:3225" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2925">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Speaker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="62" column="57" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="57" />
+          <folding>
+            <marker date="1514281585101" expanded="true" signature="4246:4248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,18 +1498,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/list.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Entity/SponsorType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2925">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="475">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        <state relative-caret-position="537">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="41" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="72" lean-forward="false" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1099,30 +1530,290 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Activity.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+        <state relative-caret-position="350">
+          <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+            <marker date="1514545163242" expanded="true" signature="540:553" ph=" @ORM\ManyToMany(targetEntity=&quot;App\Entity\Speaker&quot;, inversedBy=&quot;event&quot;) ..." />
+            <marker date="1514545163242" expanded="true" signature="5101:5109" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/DataCollector/EasyAdminDataCollector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Event/EasyAdminEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EventListener/RequestPostInitializeListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1452">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/ivory_ck_editor.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes/annotations.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EventListener/ControllerListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1213">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="338" column="35" lean-forward="false" selection-start-line="338" selection-start-column="35" selection-end-line="338" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/pages/speakers.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#12#33#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/static.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#352#380#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/pages/sponsors.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#61#4951#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/pages/blog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="302" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="14" />
+          <folding>
+            <element signature="e#61#19764#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/blog/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="302" column="14" lean-forward="false" selection-start-line="302" selection-start-column="14" selection-end-line="302" selection-end-column="14" />
+          <folding>
+            <element signature="e#61#19764#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/blog/single.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front-page/index4.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="149" column="67" lean-forward="false" selection-start-line="149" selection-start-column="67" selection-end-line="149" selection-end-column="67" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/FrontPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/sections/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/front-page/index3.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="315" column="37" lean-forward="true" selection-start-line="315" selection-start-column="37" selection-end-line="315" selection-end-column="37" />
+        <state relative-caret-position="337">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="762" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#span#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#44561#49785#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/2018/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/pages/onepage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#12#31#0#Twig" expanded="true" />
+            <element signature="e#91#706#0#HTML" expanded="false" />
+            <element signature="e#772#3011#0#HTML" expanded="false" />
+            <element signature="e#3079#5802#0#HTML" expanded="false" />
+            <element signature="e#3740#3774#0#HTML" expanded="true" />
+            <element signature="e#5874#9937#0#HTML" expanded="false" />
+            <element signature="e#7440#7470#0#HTML" expanded="true" />
+            <element signature="e#7890#7968#0#HTML" expanded="true" />
+            <element signature="e#7980#8046#0#HTML" expanded="true" />
+            <element signature="e#8058#8124#0#HTML" expanded="true" />
+            <element signature="e#8743#8815#0#HTML" expanded="true" />
+            <element signature="e#8987#9012#0#HTML" expanded="true" />
+            <element signature="e#10031#15118#0#HTML" expanded="false" />
+            <element signature="e#15208#16438#0#HTML" expanded="false" />
+            <element signature="e#15848#15869#0#HTML" expanded="true" />
+            <element signature="e#15971#16029#0#HTML" expanded="true" />
+            <element signature="e#16529#20933#0#HTML" expanded="false" />
+            <element signature="e#22694#25183#0#HTML" expanded="false" />
+            <element signature="e#30960#31056#0#HTML" expanded="false" />
+            <element signature="e#31124#31546#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/2018/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
